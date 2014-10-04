@@ -1,0 +1,6 @@
+read 4
+read 5
+read 6
+write 657 8
+write 658 8
+write 659 8

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="simvirtmem" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/simvirtmem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="40 cmd.txt" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/simvirtmem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/MAIN.CPP" />
+		<Unit filename="src/MMU.cpp" />
+		<Unit filename="src/MMU.h" />
+		<Unit filename="src/StdAfx.cpp" />
+		<Unit filename="src/exceptions.h" />
+		<Unit filename="src/interpreter.cpp" />
+		<Unit filename="src/interpreter.h" />
+		<Unit filename="src/memoire.cpp" />
+		<Unit filename="src/memoire.h" />
+		<Unit filename="src/memvirt.h" />
+		<Unit filename="src/remplacement.h" />
+		<Unit filename="src/simulateur.cpp" />
+		<Unit filename="src/simulateur.h" />
+		<Unit filename="src/stdafx.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

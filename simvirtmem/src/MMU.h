@@ -3,7 +3,9 @@
 
 
 #include <list>
+#include <sstream>
 #include "memoire.h"
+#include "Logger.h"
 
 //Kim Lavoie
 class TLB{
@@ -148,7 +150,25 @@ private:
 	adresse		base;	// Adresse du début de tableau.
 };
 
+class MemoryException
+{
+    protected:
+        void log(string description)
+        {
+            Logger::getInstance().log(description);
+        }
+};
 
+class TLBMissException : public MemoryException
+{
+    public:
+    TLBMissException(adresse a)
+    {
+        ostringstream oss;
+        oss << "TLBMiss for virtual address: " << a;
+        log(oss.str());
+    }
+};
 
 // --------------------------------------------------------------------------------
 //  Classe:	MMU
@@ -163,14 +183,21 @@ public:
 	MMU(RAM* ram, MemSecondaire* memsec);
 
 	bool	virtalloc(int nb_pages);
-	byte	read(adresse) const;
+	byte	read(adresse);
 	bool	write(byte, adresse);
 
 	// Fonction d'échange de pages
 	void	load(int page, int frame);
 	void	store(int page, int frame);
 
-
+    adresse getRamAddress(adresse a, bool writeOp);
+    adresse TLBLookup(adresse a);
+    adresse pageWalk(adresse a, bool writeOp);
+    adresse getPageTable(adresse a);
+    adresse getFrameFromPT(adresse pt, adresse a);
+    adresse getRamFromFrame(adresse frame, adresse a);
+    void updatePTE(adresse frame, adresse pt, adresse a);
+    void updatePDE(adresse pt, adresse a);
 private:
 	DirPages	dirpages;	// Répertoire de pages. Note: dans un vrai système, ce tableau
 							// serait conservé en mémoire principale.

@@ -43,6 +43,66 @@ bool	MMU::virtalloc(int nb_pages)
 	return true;
 }
 
+adresse MMU::getPageTable(adresse a)
+{
+
+    return 0;
+}
+
+adresse MMU::getFrameFromPT(adresse pt, adresse a)
+{
+    //TODO
+    return 0;
+}
+
+adresse MMU::getRamFromFrame(adresse frame, adresse a)
+{
+    //TODO
+    return 0;
+}
+
+void MMU::updatePTE(adresse pt, adresse frame, adresse a)
+{
+    //TODO
+}
+
+void MMU::updatePDE(adresse pt, adresse a)
+{
+    //TODO
+}
+
+adresse MMU::pageWalk(adresse a, bool writeOp)
+{
+    adresse pageTable = getPageTable(a);
+    adresse frame = getFrameFromPT(pageTable, a);
+    adresse ramAddress = getRamFromFrame(frame, a);
+    if(writeOp)
+    {
+        updatePTE(pageTable, frame, a);
+        updatePDE(pageTable, a);
+    }
+    return ramAddress;
+}
+
+adresse MMU::TLBLookup(adresse a)
+{
+    //TODO: Lookup in TLB
+    throw TLBMissException(a);
+    return a;
+}
+
+adresse MMU::getRamAddress(adresse a, bool writeOp)
+{
+    try
+    {
+        return TLBLookup(a);
+    }
+    catch (TLBMissException const& e)
+    {
+        return pageWalk(a, writeOp);
+    }
+}
+
 
 // --------------------------------------------------------------------------------
 //  Fonction: read
@@ -51,11 +111,14 @@ bool	MMU::virtalloc(int nb_pages)
 //  Date:  12/11/00
 //  MAJ:
 // --------------------------------------------------------------------------------
-byte	MMU::read(adresse a) const
+byte	MMU::read(adresse a)
 {
     cout << "Dans read" << endl;
     cout << "  adresse: " << a << endl;
-	return 0;
+
+    adresse ramAddress = getRamAddress(a, false);
+
+    return (*ram)[ramAddress];
 }
 
 
@@ -71,6 +134,10 @@ bool	MMU::write(byte b, adresse a)
     cout << "Dans write" << endl;
     cout << "  adresse: " << a << endl;
     cout << "  valeur: " << b << endl;
+    adresse ramAddress = getRamAddress(a, true);
+
+    (*ram)[ramAddress] = b;
+
 	return false;
 }
 

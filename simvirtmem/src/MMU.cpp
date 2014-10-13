@@ -39,7 +39,19 @@ MMU::MMU(RAM* _ram, MemSecondaire* _memsec) :
 // --------------------------------------------------------------------------------
 bool	MMU::virtalloc(int nb_pages)
 {
-    maxAdress = nb_pages * 64;
+    endAddress = nb_pages * 64;
+
+    for(int i = 0; i < nb_pages/32+1; i++)
+    {
+        dirpages.getPDE(i).val = ((endAddress+(i*64)) << 6) | 0x8000;
+    }
+
+    for(int i = 0; i < nb_pages; i++)
+    {
+
+        (*memsec)[endAddress+(i*2)] = ((i*64) << 6) | 0x8000;
+    }
+
 	return true;
 }
 

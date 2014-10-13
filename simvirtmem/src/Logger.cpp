@@ -4,7 +4,12 @@ Logger Logger::instance;
 
 Logger::Logger()
 {
-    //ctor
+    file.open("log.txt");
+}
+
+Logger::~Logger()
+{
+    file.close();
 }
 
 Logger& Logger::getInstance()
@@ -14,5 +19,5 @@ Logger& Logger::getInstance()
 
 void Logger::log(std::string toLog)
 {
-    //TODO
+    file << toLog << std::endl;
 }

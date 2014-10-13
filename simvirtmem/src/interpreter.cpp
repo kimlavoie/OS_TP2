@@ -23,9 +23,14 @@ istream&	operator>>(istream& is, Command& cmd)
 		cmd.cmd = Command::READ;
 	else if ( fcmd == string("write") )
 		cmd.cmd = Command::WRITE;
+    else if ( fcmd == "") throw 0;
+    else throw string("Invalid command");
 
 	if ( cmd.cmd == Command::WRITE )
-		is >> cmd.val;
+	{
+	    is >> cmd.val;
+	}
+
 
 	return is;
 }
@@ -129,7 +134,12 @@ bool	Interpreter::Fetch(Command& cmd)
 	{
 		(*f_in) >> cmd;
 	}
-	catch ( ... ) // TODO Faire gestion erreur.
+	catch (string const& s)
+	{
+	    std::cerr << "Invalid command" << std::endl;
+	    return false;
+	}
+	catch ( ... )
 	{
 		return false;
 	}

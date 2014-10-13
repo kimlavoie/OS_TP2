@@ -24,7 +24,7 @@ int main (int argc, char** argv)
 	fname = argv[2];
 	sscanf(argv[1], "%d", &nb_pages);
 
-	if ( nb_pages*64 > pow(2, log2_sz_memsec) )
+	if ( nb_pages*64 + (nb_pages / 32 + 1) > pow(2, log2_sz_memsec) )
 	{
 		cout << "Erreur: le nombre de pages demandees trop grand\n";
 	}

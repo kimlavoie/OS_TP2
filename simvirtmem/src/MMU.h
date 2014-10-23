@@ -172,6 +172,17 @@ class TLBMissException : public MemoryException
     }
 };
 
+class PageFaultException : public MemoryException
+{
+    public:
+    PageFaultException(adresse a)
+    {
+        ostringstream oss;
+        oss << "Page Fault for virtual address: " << a;
+        log(oss.str());
+    }
+};
+
 // --------------------------------------------------------------------------------
 //  Classe:	MMU
 //  Implémentation de l'unité de gestion de de mémoire matérielle.

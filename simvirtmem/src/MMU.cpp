@@ -57,30 +57,61 @@ bool	MMU::virtalloc(int nb_pages)
 
 adresse MMU::getPageTable(adresse a)
 {
+    int offsetPDE = a >> 11;
+    PDE entry = dirpages.getPDE(offsetPDE);
+    try
+    {
+        if(!entry.Present()) throw PageFaultException(a);
+        else return entry.PageBase();
 
+    }
+    catch (PageFaultException const& e)
+    {
+        load(entry.val & 0x3FC0, 0);
+        return dirpages.getPDE(offsetPDE).PageBase();
+    }
     return 0;
 }
 
 adresse MMU::getFrameFromPT(adresse pt, adresse a)
 {
-    //TODO
-    return 0;
+    adresse offset = (a & 0x07C0) >> 5; // 5 and not 6, because 2 bytes per entry
+    adresse ramAddress =  pt + offset;
+    word entry = 0;
+    entry += (*ram)[ramAddress];
+    entry = (entry << 8) + (*ram)[ramAddress+1];
+    PTE pte;
+    pte.val = entry;
+    try
+    {
+        if(!pte.Present()) throw PageFaultException(a);
+        else return pte.PageBase();
+    }
+    catch (PageFaultException const& e)
+    {
+        load(pte.val & 0x3FC0, 0);
+        word entry = 0;
+        entry += (*ram)[ramAddress];
+        entry = (entry << 8) + (*ram)[ramAddress+1];
+        return entry;
+    }
 }
 
 adresse MMU::getRamFromFrame(adresse frame, adresse a)
 {
-    //TODO
-    return 0;
+    return frame + (a & 0x003F);
 }
 
 void MMU::updatePTE(adresse pt, adresse frame, adresse a)
 {
-    //TODO
+    adresse ramAddress = frame + ((a & 0x07C0) >> 6);
+    (*ram)[ramAddress] = (*ram)[ramAddress] | 0x40; //We set the modified bit
 }
 
 void MMU::updatePDE(adresse pt, adresse a)
 {
-    //TODO
+    PDE pde = dirpages.getPDE(a >> 11);
+    pde.val = pde.val | 0x40;
 }
 
 adresse MMU::pageWalk(adresse a, bool writeOp)

@@ -1,19 +1,50 @@
 #pragma once
 
+#include <queue>
+
 // Méthodes de remplacement de frame.
 
-class Frame; // À définir.
+struct Frame
+{
+    adresse virt_address;
+    adresse ram_address;
+};
 
-class Horloge {
+class ReplacementPolicy
+{
+    protected:
+        std::queue<Frame> frames;
 
+    public:
+        ReplacementPolicy()
+        {
+            for(int i = 0; i < 16; i++)
+            {
+                frames.push(Frame());
+            }
+        }
+        virtual Frame& getReplacementFrame() = 0;
+};
 
-	// Liste circulaire des frames
-	list<Frame>	frames;
+class Horloge : public ReplacementPolicy
+{
+    public:
+        virtual Frame& getReplacementFrame()
+        {
+            //TODO
+        }
 };
 
 
-class FIFO {
-
-
+class FIFO : public ReplacementPolicy
+{
+    public:
+        virtual Frame& getReplacementFrame()
+        {
+            Frame& frame = frames.front();
+            frames.pop();
+            frames.push(frame);
+            return frame;
+        }
 
 };

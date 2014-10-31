@@ -6,6 +6,7 @@
 #include <sstream>
 #include "memoire.h"
 #include "Logger.h"
+#include "remplacement.h"
 
 //Kim Lavoie
 class TLB{
@@ -209,6 +210,7 @@ public:
     adresse getPageTable(adresse a);
     adresse getFrameFromPT(adresse pt, adresse a);
     adresse getRamFromFrame(adresse frame, adresse a);
+    adresse swap(adresse virtualAddress);
     void updatePTE(adresse frame, adresse pt, adresse a);
     void updatePDE(adresse pt, adresse a);
 private:
@@ -221,6 +223,7 @@ private:
 	// Kim Lavoie
 	TLB tlb;
 	adresse endAddress = 0;
+	ReplacementPolicy* replacementPolicy;
 };
 
 

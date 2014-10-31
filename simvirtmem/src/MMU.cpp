@@ -24,7 +24,8 @@
 // --------------------------------------------------------------------------------
 MMU::MMU(RAM* _ram, MemSecondaire* _memsec) :
 	ram(_ram),
-	memsec(_memsec)
+	memsec(_memsec),
+	replacementPolicy(new FIFO())
 {
 }
 
@@ -67,7 +68,7 @@ adresse MMU::getPageTable(adresse a)
     }
     catch (PageFaultException const& e)
     {
-        load(entry.val & 0x3FC0, 0);
+        swap(a);
         return dirpages.getPDE(offsetPDE).PageBase();
     }
     return 0;
@@ -89,7 +90,7 @@ adresse MMU::getFrameFromPT(adresse pt, adresse a)
     }
     catch (PageFaultException const& e)
     {
-        load(pte.val & 0x3FC0, 0);
+        swap(a);
         word entry = 0;
         entry += (*ram)[ramAddress];
         entry = (entry << 8) + (*ram)[ramAddress+1];
@@ -184,7 +185,42 @@ bool	MMU::write(byte b, adresse a)
 	return false;
 }
 
+adresse MMU::swap(adresse virtualAddress)
+{
+    // Get next replaced Frame
+    // if PTE in ram
+        // if Frame is dirty
+            // Change PTE and PDE
+            // Store Frame
+        // else
+            // Change PTE and PDE
+    // else
+        // Store frame
+        // load PTE
+        // change PTE and PDE
+    // load address
+    // return loaded address
 
+    Frame nextFrame = replacementPolicy->getReplacementFrame();
+    int offsetPDE = nextFrame.virt_address >> 11;
+    PDE entry = dirpages.getPDE(offsetPDE);
+    if(entry.Present())
+    {
+        adresse offset = (nextFrame.virt_address & 0x07C0) >> 5; // 5 and not 6, because 2 bytes per entry
+        adresse ramAddress =  entry.PageBase() + offset;
+        word PTEntry = 0;
+        PTEntry += (*ram)[ramAddress];
+        PTEntry = (PTEntry << 8) + (*ram)[ramAddress+1];
+        PTE pte;
+        pte.val = PTEntry;
+        if(pte.Modified())
+        {
+            // Change PTE and PDE
+            // Store Frame
+        }
+    }
+
+}
 
 // --------------------------------------------------------------------------------
 //  Fonction: load
@@ -196,6 +232,10 @@ bool	MMU::write(byte b, adresse a)
 // --------------------------------------------------------------------------------
 void	MMU::load(int page, int frame)
 {
+    for(int i = 0; i < 64; i++)
+    {
+        (*ram)[frame+i] = (*memsec)[page+i];
+    }
 }
 
 
@@ -208,6 +248,10 @@ void	MMU::load(int page, int frame)
 // --------------------------------------------------------------------------------
 void	MMU::store(int page, int frame)
 {
+    for(int i = 0; i < 64; i++)
+    {
+        (*memsec)[page+i] = (*ram)[frame+i];
+    }
 }
 
 

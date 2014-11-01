@@ -94,6 +94,7 @@ public:
 	DirPages(int sz = 32) : size(sz), elems(new PDE[sz]) {}
 
 	PDE& getPDE(unsigned int i) { return elems[i];}
+	void setPDE(unsigned int i, PDE pde) { elems[i] = pde;}
 
 
 private:

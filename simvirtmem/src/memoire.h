@@ -28,6 +28,7 @@ public:
 
 	byte&	operator[](adresse);
 	const byte&	operator[](adresse) const;
+	void set(int adr, byte b) {memoire[adr] = b;}
 
 private:
 

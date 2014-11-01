@@ -1,6 +1,6 @@
-read 4
+read 129
 read 5
-read 6
+read 140
 write 54 4
 write 600 3
 write 543 9

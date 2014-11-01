@@ -13,14 +13,17 @@ struct Frame
 class ReplacementPolicy
 {
     protected:
-        std::queue<Frame> frames;
+        std::queue<Frame*> frames;
 
     public:
         ReplacementPolicy()
         {
             for(int i = 0; i < 16; i++)
             {
-                frames.push(Frame());
+                Frame* frame = new Frame();
+                frame->virt_address = 0xFFFF;
+                frame->ram_address = i * 64;
+                frames.push(frame);
             }
         }
         virtual Frame& getReplacementFrame() = 0;
@@ -41,10 +44,10 @@ class FIFO : public ReplacementPolicy
     public:
         virtual Frame& getReplacementFrame()
         {
-            Frame& frame = frames.front();
+            Frame* frame = frames.front();
             frames.pop();
             frames.push(frame);
-            return frame;
+            return *frame;
         }
 
 };

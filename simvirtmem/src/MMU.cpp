@@ -176,7 +176,7 @@ byte	MMU::read(adresse a)
     cout << "  adresse: " << a << endl;
 
     adresse ramAddress = getRamAddress(a, false);
-    cout << "ramAddress=" << ramAddress << endl;
+    cout << "  Byte read: " << (int)(*ram)[ramAddress] << endl;
     cout << endl;
 
     return (*ram)[ramAddress];
@@ -194,9 +194,9 @@ bool	MMU::write(byte b, adresse a)
 {
     cout << "Dans write" << endl;
     cout << "  adresse: " << a << endl;
-    cout << "  valeur: " << b << endl;
+    cout << "  char: " << b << endl;
+    cout << "  valeur: " << (int)b << endl;
     adresse ramAddress = getRamAddress(a, true);
-
     (*ram)[ramAddress] = b;
 
 

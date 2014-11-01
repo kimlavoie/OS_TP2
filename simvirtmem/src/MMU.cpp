@@ -57,14 +57,6 @@ bool	MMU::virtalloc(int nb_pages)
         (*memsec).set(endAddress+(i*2)+1, w & 0xff);
     }
 
-
-    /*** Tests **/
-
-//    cout << "PDE value " << dirpages.getPDE(0).val << endl;
-//    cout << "PTE value " << (int)(*memsec)[endAddress] << endl;
-
-    /*************/
-
 	return true;
 }
 
@@ -175,7 +167,13 @@ byte	MMU::read(adresse a)
     cout << "Dans read" << endl;
     cout << "  adresse: " << a << endl;
 
+    if(a >= endAddress)
+    {
+        throw MemoryOverflow(a);
+    }
+
     adresse ramAddress = getRamAddress(a, false);
+
     cout << "  Byte read: " << (int)(*ram)[ramAddress] << endl;
     cout << endl;
 
@@ -196,6 +194,12 @@ bool	MMU::write(byte b, adresse a)
     cout << "  adresse: " << a << endl;
     cout << "  char: " << b << endl;
     cout << "  valeur: " << (int)b << endl;
+
+    if(a >= endAddress)
+    {
+        throw MemoryOverflow(a);
+    }
+
     adresse ramAddress = getRamAddress(a, true);
     (*ram)[ramAddress] = b;
 

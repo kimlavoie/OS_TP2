@@ -163,6 +163,17 @@ class MemoryException
         }
 };
 
+class MemoryOverflow : public MemoryException
+{
+    public:
+    MemoryOverflow(adresse a)
+    {
+        ostringstream oss;
+        oss << "Invalid memory address (overflow) : " << a;
+        log(oss.str());
+    }
+};
+
 class TLBMissException : public MemoryException
 {
     public:

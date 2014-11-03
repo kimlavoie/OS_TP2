@@ -109,16 +109,34 @@ adresse MMU::getRamFromFrame(adresse frame, adresse a)
     return frame + (a & 0x003F);
 }
 
-void MMU::updatePTE(adresse pt, adresse frame, adresse a)
+void MMU::updatePTE(adresse pt, adresse a, bool writeOp)
 {
-    adresse ramAddress = frame + ((a & 0x07C0) >> 6);
-    (*ram)[ramAddress] = (*ram)[ramAddress] | 0x40; //We set the modified bit
+    int modif;
+    if(writeOp)
+    {
+        modif = 0b01100000; //modified and accessed
+    }
+    else
+    {
+        modif = 0b00100000; //accessed only
+    }
+    adresse ramAddress = pt + ((a & 0x07C0) >> 5);
+    (*ram)[ramAddress] = (*ram)[ramAddress] | modif; //We set the modified bit
 }
 
-void MMU::updatePDE(adresse pt, adresse a)
+void MMU::updatePDE(adresse a, bool writeOp)
 {
+    int modif;
+    if(writeOp)
+    {
+        modif = 0b0110000000000000; //modified and accessed
+    }
+    else
+    {
+        modif = 0b0010000000000000; //accessed only
+    }
     PDE pde = dirpages.getPDE(a >> 11);
-    pde.val = pde.val | 0x40;
+    pde.val = pde.val | modif;
 }
 
 adresse MMU::pageWalk(adresse a, bool writeOp)
@@ -126,11 +144,8 @@ adresse MMU::pageWalk(adresse a, bool writeOp)
     adresse pageTable = getPageTable(a);
     adresse frame = getFrameFromPT(pageTable, a);
     adresse ramAddress = getRamFromFrame(frame, a);
-    if(writeOp)
-    {
-        updatePTE(pageTable, frame, a);
-        updatePDE(pageTable, a);
-    }
+    updatePTE(pageTable, a, writeOp);
+    updatePDE(a, writeOp);
     return ramAddress;
 }
 
@@ -260,6 +275,7 @@ adresse MMU::swap(adresse virtualAddress)
     if(virtualAddress >= endAddress) //if it's a table, we don't have to change the PTE
     {
         entry2.val = nextFrame.ram_address | 0x8000;
+
     }
     else
     {
@@ -271,6 +287,33 @@ adresse MMU::swap(adresse virtualAddress)
     nextFrame.virt_address = virtualAddress & 0b1111111111000000;
     return nextFrame.ram_address;
 }
+
+bool MMU::accessed(Frame* frame)
+{
+    PDE& pde = dirpages.getPDE(frame->virt_address >> 11);
+    if(!pde.Present())
+    {
+        throw "PTE not present for page search ... dammit!";
+    }
+    pde.val = pde.val | 0b0010000000000000;
+    adresse pte = (pde.val & 0x07C0) + ((frame->virt_address & 0b0000011111000000) >> 5);
+    return ((*ram)[pte] & 0b00100000) == 0b00100000;
+
+
+}
+
+void MMU::set_unaccessed(Frame* frame)
+{
+    PDE& pde = dirpages.getPDE(frame->virt_address >> 11);
+    if(!pde.Present())
+    {
+        throw "PTE not present for page search ... dammit!";
+    }
+    pde.val = pde.val | 0b0010000000000000;
+    adresse pte = (pde.val & 0x07C0) + ((frame->virt_address & 0b0000011111000000) >> 5);
+    (*ram)[pte] &= 0b11011111;
+}
+
 
 // --------------------------------------------------------------------------------
 //  Fonction: load

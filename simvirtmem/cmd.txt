@@ -1,10 +1,12 @@
-write 54 4
-write 600 3
-write 543 9
-read 65
-read 543
-read 600
-read 54
-write 54 250
-read 54
-read 2560
+write 200 200
+read 200
+write 400 76
+write 4000 90
+read 400
+read 4000
+read 55
+write 55 100
+write 55 200
+read 55
+read 55
+write 10000 2

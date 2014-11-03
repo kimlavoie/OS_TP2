@@ -8,6 +8,9 @@
 #include "Logger.h"
 #include "remplacement.h"
 
+class Frame;
+class ReplacementPolicy;
+
 //Kim Lavoie
 class TLB{
     // Signification des bits des entrées:
@@ -157,7 +160,7 @@ private:
 class MemoryException
 {
     protected:
-        void log(string description)
+        void log(std::string description)
         {
             Logger::getInstance().log(description);
         }
@@ -168,7 +171,7 @@ class MemoryOverflow : public MemoryException
     public:
     MemoryOverflow(adresse a)
     {
-        ostringstream oss;
+        std::ostringstream oss;
         oss << "Invalid memory address (overflow) : " << a;
         log(oss.str());
     }
@@ -179,7 +182,7 @@ class TLBMissException : public MemoryException
     public:
     TLBMissException(adresse a)
     {
-        ostringstream oss;
+        std::ostringstream oss;
         oss << "TLBMiss for virtual address: " << a;
         log(oss.str());
     }
@@ -190,7 +193,7 @@ class PageFaultException : public MemoryException
     public:
     PageFaultException(adresse a)
     {
-        ostringstream oss;
+        std::ostringstream oss;
         oss << "Page Fault for virtual address: " << a;
         log(oss.str());
     }
@@ -223,8 +226,10 @@ public:
     adresse getFrameFromPT(adresse pt, adresse a);
     adresse getRamFromFrame(adresse frame, adresse a);
     adresse swap(adresse virtualAddress);
-    void updatePTE(adresse frame, adresse pt, adresse a);
-    void updatePDE(adresse pt, adresse a);
+    bool accessed(Frame* frame);
+    void set_unaccessed(Frame* frame);
+    void updatePTE(adresse pt, adresse a, bool writeOp);
+    void updatePDE(adresse a, bool writeOp);
 private:
 	DirPages	dirpages;	// Répertoire de pages. Note: dans un vrai système, ce tableau
 							// serait conservé en mémoire principale.

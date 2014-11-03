@@ -1,6 +1,9 @@
 #pragma once
 
 #include <queue>
+#include "memoire.h"
+#include "MMU.h"
+class MMU;
 
 // Méthodes de remplacement de frame.
 
@@ -31,23 +34,20 @@ class ReplacementPolicy
 
 class Horloge : public ReplacementPolicy
 {
+    private:
+        MMU* mmu;
     public:
-        virtual Frame& getReplacementFrame()
-        {
-            //TODO
-        }
+        Horloge(MMU* mmu):mmu(mmu){}
+
+        virtual Frame& getReplacementFrame();
+
 };
 
 
 class FIFO : public ReplacementPolicy
 {
     public:
-        virtual Frame& getReplacementFrame()
-        {
-            Frame* frame = frames.front();
-            frames.pop();
-            frames.push(frame);
-            return *frame;
-        }
+        virtual Frame& getReplacementFrame();
+
 
 };

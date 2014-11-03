@@ -192,7 +192,6 @@ bool	MMU::write(byte b, adresse a)
 {
     cout << "Dans write" << endl;
     cout << "  adresse: " << a << endl;
-    cout << "  char: " << b << endl;
     cout << "  valeur: " << (int)b << endl;
 
     if(a >= endAddress)

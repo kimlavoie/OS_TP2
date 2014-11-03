@@ -5,6 +5,6 @@ read 65
 read 543
 read 600
 read 54
-write 54 a
+write 54 250
 read 54
 read 2560

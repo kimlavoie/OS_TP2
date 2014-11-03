@@ -28,7 +28,9 @@ istream&	operator>>(istream& is, Command& cmd)
 
 	if ( cmd.cmd == Command::WRITE )
 	{
-	    is >> cmd.val;
+	    int i;
+	    is >> i;
+	    cmd.val = (byte) i;
 	}
 
 

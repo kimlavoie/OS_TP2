@@ -287,16 +287,14 @@ adresse MMU::swap(adresse virtualAddress)
         }
     }
     load(virtualAddress >> 6, nextFrame.ram_address >> 6);
-    PDE& entry2 = dirpages.getPDE(virtualAddress >> 11);
     if(virtualAddress >= endAddress) //if it's a table, we don't have to change the PTE
     {
-        cout << virtualAddress << endl;
-        cout << entry2.val << endl;
-        entry2.val = nextFrame.ram_address | 0x0110000000000000;
-
+        PDE& entry2 = dirpages.getPDE((virtualAddress - endAddress) / 64);
+        entry2.val = nextFrame.ram_address | 0b1110000000000000;
     }
     else
     {
+        PDE& entry2 = dirpages.getPDE(virtualAddress >> 11);
         entry2.val = entry2.val | 0b0110000000000000; //HERE
         adresse ramAddress = (entry2.val & 0b0000011111000000) + ((virtualAddress & 0b0000011111000000) >> 5);
         (*ram)[ramAddress] = (nextFrame.ram_address >> 8) | 0b10000000;

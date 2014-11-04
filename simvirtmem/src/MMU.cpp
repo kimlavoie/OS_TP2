@@ -63,7 +63,7 @@ bool	MMU::virtalloc(int nb_pages)
 adresse MMU::getPageTable(adresse a)
 {
     int offsetPDE = a >> 11;
-    PDE entry = dirpages.getPDE(offsetPDE);
+    PDE& entry = dirpages.getPDE(offsetPDE);
     try
     {
         if(!entry.Present()) throw PageFaultException(a);
@@ -96,10 +96,6 @@ adresse MMU::getFrameFromPT(adresse pt, adresse a)
     catch (PageFaultException const& e)
     {
         adresse ramAddress = swap(a);
-//        word entry2 = 0;
-//        entry2 += (*ram)[ramAddress];
-//        entry2 = (entry2 << 8) + (*ram)[ramAddress+1];
-//        cout << "Entry2: " << entry2 << endl;
         return ramAddress;
     }
 }
@@ -135,7 +131,7 @@ void MMU::updatePDE(adresse a, bool writeOp)
     {
         modif = 0b0010000000000000; //accessed only
     }
-    PDE pde = dirpages.getPDE(a >> 11);
+    PDE& pde = dirpages.getPDE(a >> 11);
     pde.val = pde.val | modif;
 }
 
@@ -189,6 +185,8 @@ byte	MMU::read(adresse a)
 
     adresse ramAddress = getRamAddress(a, false);
 
+    cout << "RamAddress: " << ramAddress << endl;
+
     cout << "  Byte read: " << (int)(*ram)[ramAddress] << endl;
     cout << endl;
 
@@ -216,7 +214,7 @@ bool	MMU::write(byte b, adresse a)
 
     adresse ramAddress = getRamAddress(a, true);
     (*ram)[ramAddress] = b;
-
+    cout << "RamAddress: " << ramAddress << endl;
 
     cout << endl;
 	return false;
@@ -224,62 +222,82 @@ bool	MMU::write(byte b, adresse a)
 
 adresse MMU::swap(adresse virtualAddress)
 {
-    Frame nextFrame = replacementPolicy->getReplacementFrame();
+    Frame& nextFrame = replacementPolicy->getReplacementFrame();
     if(nextFrame.virt_address != 0xFFFF)
     {
-        int offsetPDE = nextFrame.virt_address >> 11;
-        PDE entry = dirpages.getPDE(offsetPDE);
-        if(entry.Present())
+        if((nextFrame.virt_address & 0b1111111111000000) >= endAddress) //if a table
         {
-            adresse offset = (nextFrame.virt_address & 0x07C0) >> 5; // 5 and not 6, because 2 bytes per entry
-            adresse ramAddress =  entry.PageBase() + offset;
-            word PTEntry = 0;
-            PTEntry += (*ram)[ramAddress];
-            PTEntry = (PTEntry << 8) + (*ram)[ramAddress+1];
-            PTE pte;
-            pte.val = PTEntry;
-            if(pte.Modified())
+            int offsetPDE = (nextFrame.virt_address - endAddress) / 64;
+            if(offsetPDE == (virtualAddress >> 11))
             {
-                // Change PTE
-                (*ram)[ramAddress] = nextFrame.virt_address >> 8;
-                (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
-                //Change PDE
-                entry.val = entry.val | 0b0110000000000000;
-                // Store Frame
-                store((nextFrame.virt_address >> 6), nextFrame.ram_address >> 6);
+                adresse temp = swap(virtualAddress);
+                return temp;
             }
-            else
+            PDE& tableEntry = dirpages.getPDE(offsetPDE);
+            if(tableEntry.Modified())
             {
-                cout << ramAddress << endl;
-                // Change PTE
-                (*ram)[ramAddress] = nextFrame.virt_address >> 8;
-                (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
-                //Change PDE
-                entry.val = entry.val | 0b0110000000000000;
+                store(nextFrame.virt_address >> 6, nextFrame.ram_address >> 6);
             }
+            tableEntry.val = nextFrame.virt_address;
         }
         else
         {
-            store((nextFrame.virt_address >> 6), nextFrame.ram_address);
-            int page = (entry.val & 0x3FC0) >> 6;
-            load(page, nextFrame.ram_address);
-            adresse ramAddress = nextFrame.ram_address + ((nextFrame.virt_address & 0x07C0) >> 6);
-            // Change PTE
-            (*ram)[ramAddress] = nextFrame.virt_address >> 8;
-            (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
-            store(page, nextFrame.ram_address >> 6);
+            int offsetPDE = nextFrame.virt_address >> 11;
+            PDE& entry = dirpages.getPDE(offsetPDE);
+            if(entry.Present())
+            {
+                adresse offset = (nextFrame.virt_address & 0x07C0) >> 5; // 5 and not 6, because 2 bytes per entry
+                adresse ramAddress =  entry.PageBase() + offset;
+                word PTEntry = 0;
+                PTEntry += (*ram)[ramAddress];
+                PTEntry = (PTEntry << 8) + (*ram)[ramAddress+1];
+                PTE pte;
+                pte.val = PTEntry;
+                if(pte.Modified())
+                {
+                    // Change PTE
+                    (*ram)[ramAddress] = nextFrame.virt_address >> 8;
+                    (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
+                    //Change PDE
+                    entry.val = entry.val | 0b0110000000000000;
+                    // Store Frame
+                    store((nextFrame.virt_address >> 6), nextFrame.ram_address >> 6);
+                }
+                else
+                {
+                    // Change PTE
+                    (*ram)[ramAddress] = nextFrame.virt_address >> 8;
+                    (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
+                    //Change PDE
+                    entry.val = entry.val | 0b0110000000000000;
+                }
+            }
+            else
+            {
+
+                store((nextFrame.virt_address >> 6), nextFrame.ram_address >> 6);
+                int page = (entry.val & 0x3FC0) >> 6;
+                load(page, nextFrame.ram_address >> 6);
+                adresse ramAddress = nextFrame.ram_address + ((nextFrame.virt_address & 0x07C0) >> 5);
+                // Change PTE
+                (*ram)[ramAddress] = nextFrame.virt_address >> 8;
+                (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
+                store(page, nextFrame.ram_address >> 6);
+            }
         }
     }
     load(virtualAddress >> 6, nextFrame.ram_address >> 6);
     PDE& entry2 = dirpages.getPDE(virtualAddress >> 11);
     if(virtualAddress >= endAddress) //if it's a table, we don't have to change the PTE
     {
-        entry2.val = nextFrame.ram_address | 0x8000;
+        cout << virtualAddress << endl;
+        cout << entry2.val << endl;
+        entry2.val = nextFrame.ram_address | 0x0110000000000000;
 
     }
     else
     {
-        entry2.val = entry2.val | 0b0110000000000000;
+        entry2.val = entry2.val | 0b0110000000000000; //HERE
         adresse ramAddress = (entry2.val & 0b0000011111000000) + ((virtualAddress & 0b0000011111000000) >> 5);
         (*ram)[ramAddress] = (nextFrame.ram_address >> 8) | 0b10000000;
         (*ram)[ramAddress+1] = nextFrame.ram_address & 0xFF;

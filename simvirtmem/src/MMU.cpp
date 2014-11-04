@@ -25,7 +25,7 @@
 MMU::MMU(RAM* _ram, MemSecondaire* _memsec) :
 	ram(_ram),
 	memsec(_memsec),
-	replacementPolicy(new FIFO())
+	replacementPolicy(new Horloge(this))
 {
 }
 
@@ -62,6 +62,7 @@ bool	MMU::virtalloc(int nb_pages)
 
 adresse MMU::getPageTable(adresse a)
 {
+    cout << dirpages.getPDE(0).val << endl;
     int offsetPDE = a >> 11;
     PDE& entry = dirpages.getPDE(offsetPDE);
     try
@@ -306,28 +307,60 @@ adresse MMU::swap(adresse virtualAddress)
 
 bool MMU::accessed(Frame* frame)
 {
-    PDE& pde = dirpages.getPDE(frame->virt_address >> 11);
+    int offset;
+    if(frame->virt_address >= endAddress) // table
+    {
+        offset = (frame->virt_address - endAddress) / 64;
+    }
+    else
+    {
+        offset = frame->virt_address >> 11;
+    }
+    PDE& pde = dirpages.getPDE(offset);
     if(!pde.Present())
     {
+        cout << "pde.val: " << pde.val << endl;
         throw "PTE not present for page search ... dammit!";
     }
-    pde.val = pde.val | 0b0010000000000000;
-    adresse pte = (pde.val & 0x07C0) + ((frame->virt_address & 0b0000011111000000) >> 5);
-    return ((*ram)[pte] & 0b00100000) == 0b00100000;
-
-
+    if(frame->virt_address >= endAddress)  // table
+    {
+        return (pde.val & 0b0010000000000000) == 0b0010000000000000;
+    }
+    else
+    {
+        pde.val = pde.val | 0b0010000000000000;
+        adresse pte = (pde.val & 0x07C0) + ((frame->virt_address & 0b0000011111000000) >> 5);
+        return ((*ram)[pte] & 0b00100000) == 0b00100000;
+    }
 }
 
 void MMU::set_unaccessed(Frame* frame)
 {
-    PDE& pde = dirpages.getPDE(frame->virt_address >> 11);
+    int offset;
+    if(frame->virt_address >= endAddress) // table
+    {
+        offset = (frame->virt_address - endAddress) / 64;
+    }
+    else
+    {
+        offset = frame->virt_address >> 11;
+    }
+    PDE& pde = dirpages.getPDE(offset);
     if(!pde.Present())
     {
         throw "PTE not present for page search ... dammit!";
     }
-    pde.val = pde.val | 0b0010000000000000;
-    adresse pte = (pde.val & 0x07C0) + ((frame->virt_address & 0b0000011111000000) >> 5);
-    (*ram)[pte] &= 0b11011111;
+    if(frame->virt_address >= endAddress)  // table
+    {
+        pde.val = pde.val & 0b1101111111111111;
+    }
+    else
+    {
+        pde.val = pde.val | 0b0010000000000000;
+        adresse pte = (pde.val & 0x07C0) + ((frame->virt_address & 0b0000011111000000) >> 5);
+        (*ram)[pte] &= 0b11011111;
+    }
+
 }
 
 

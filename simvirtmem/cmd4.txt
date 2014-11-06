@@ -1,0 +1,1170 @@
+write 5878 251
+write 5879 252
+write 5880 253
+write 5881 254
+write 5882 255
+write 5883 0
+write 5884 1
+write 5885 2
+write 5886 3
+write 5887 4
+write 5888 5
+write 5889 6
+write 5890 7
+write 5891 8
+write 5892 9
+write 5893 10
+write 5894 11
+write 5895 12
+write 5896 13
+write 5897 14
+write 5898 15
+write 5899 16
+write 5900 17
+write 5901 18
+write 5902 19
+write 5903 20
+write 5904 21
+write 5905 22
+write 5906 23
+write 5907 24
+write 5908 25
+write 5909 26
+write 5910 27
+write 5911 28
+write 5912 29
+write 5913 30
+write 5914 31
+write 5915 32
+write 5916 33
+write 5917 34
+write 5918 35
+write 5919 36
+write 5920 37
+write 5921 38
+write 5922 39
+write 5923 40
+write 5924 41
+write 5925 42
+write 5926 43
+write 5927 44
+write 5928 45
+write 5929 46
+write 5930 47
+write 5931 48
+write 5932 49
+write 5933 50
+write 5934 51
+write 5935 52
+write 5936 53
+write 5937 54
+write 5938 55
+write 5939 56
+write 5940 57
+write 5941 58
+write 5942 59
+write 5943 60
+write 5944 61
+write 5945 62
+write 5946 63
+write 5947 64
+write 5948 65
+write 5949 66
+write 5950 67
+write 5951 68
+write 5952 69
+write 5953 70
+write 5954 71
+write 5955 72
+write 5956 73
+write 5957 74
+write 5958 75
+write 5959 76
+write 5960 77
+write 5961 78
+write 5962 79
+write 5963 80
+write 5964 81
+write 5965 82
+write 5966 83
+write 5967 84
+write 5968 85
+write 5969 86
+write 5970 87
+write 5971 88
+write 5972 89
+write 5973 90
+write 5974 91
+write 5975 92
+write 5976 93
+write 5977 94
+write 5978 95
+write 5979 96
+read 1450
+read 1451
+read 1452
+read 1453
+read 1454
+read 1455
+read 1456
+read 1457
+read 1458
+read 1459
+read 1460
+read 1461
+write 189 23
+write 190 24
+write 191 25
+write 192 26
+write 193 27
+write 194 28
+write 195 29
+write 196 30
+write 197 31
+write 198 32
+write 199 33
+write 200 34
+write 201 35
+write 202 36
+write 203 37
+write 204 38
+write 205 39
+write 206 40
+write 207 41
+write 208 42
+write 209 43
+write 210 44
+write 211 45
+write 212 46
+write 213 47
+write 214 48
+write 215 49
+write 216 50
+write 217 51
+write 218 52
+write 219 53
+write 220 54
+write 221 55
+write 222 56
+write 223 57
+write 224 58
+write 225 59
+write 226 60
+write 227 61
+write 228 62
+write 229 63
+write 230 64
+write 231 65
+write 232 66
+write 233 67
+write 234 68
+write 235 69
+write 236 70
+write 237 71
+write 238 72
+write 239 73
+write 240 74
+write 241 75
+write 242 76
+write 243 77
+write 244 78
+write 245 79
+write 246 80
+write 247 81
+write 248 82
+write 249 83
+write 250 84
+read 1618
+read 1619
+write 4191 98
+write 4192 99
+write 4193 100
+write 4194 101
+write 4195 102
+write 4196 103
+write 4197 104
+write 4198 105
+write 4199 106
+write 4200 107
+write 4201 108
+write 4202 109
+write 4203 110
+write 4204 111
+write 4205 112
+write 4206 113
+write 4207 114
+write 4208 115
+write 4209 116
+write 4210 117
+write 4211 118
+write 4212 119
+write 4213 120
+write 4214 121
+write 4215 122
+write 4216 123
+write 4217 124
+write 4218 125
+write 4219 126
+write 4220 127
+write 4221 128
+write 4222 129
+write 4223 130
+write 4224 131
+write 4225 132
+write 4226 133
+write 4227 134
+write 4228 135
+write 4229 136
+write 4230 137
+write 4231 138
+write 4232 139
+write 4233 140
+write 4234 141
+write 4235 142
+write 4236 143
+write 4237 144
+write 4238 145
+write 4239 146
+write 4240 147
+write 4241 148
+write 4242 149
+write 4243 150
+write 4244 151
+write 4245 152
+write 4246 153
+write 4247 154
+write 4248 155
+write 4249 156
+write 4250 157
+write 4251 158
+write 4252 159
+write 4253 160
+write 4254 161
+write 4255 162
+write 4256 163
+write 4257 164
+write 4258 165
+write 4259 166
+write 4260 167
+write 4261 168
+write 4262 169
+read 4875
+read 4876
+read 4877
+read 4878
+read 4879
+read 4880
+read 4881
+read 4882
+read 4883
+read 4884
+read 4885
+read 4886
+write 3450 251
+write 3451 252
+read 3227
+read 3228
+read 3229
+read 3230
+read 3231
+read 3232
+read 3233
+read 3234
+read 3235
+read 3236
+read 3237
+read 3238
+write 3096 27
+write 3097 28
+write 3098 29
+write 3099 30
+write 3100 31
+write 3101 32
+write 3102 33
+write 3103 34
+write 3104 35
+write 3105 36
+write 3106 37
+write 3107 38
+write 3108 39
+write 3109 40
+write 3110 41
+write 3111 42
+write 3112 43
+write 3113 44
+write 3114 45
+write 3115 46
+write 3116 47
+write 3117 48
+write 3118 49
+write 3119 50
+write 3120 51
+write 3121 52
+write 3122 53
+write 3123 54
+write 3124 55
+write 3125 56
+write 3126 57
+write 3127 58
+write 3128 59
+write 3129 60
+write 3130 61
+write 3131 62
+write 3132 63
+write 3133 64
+write 3134 65
+write 3135 66
+write 3136 67
+write 3137 68
+write 3138 69
+write 3139 70
+write 3140 71
+write 3141 72
+write 3142 73
+write 3143 74
+write 3144 75
+write 3145 76
+write 3146 77
+write 3147 78
+write 3148 79
+write 3149 80
+write 3150 81
+write 3151 82
+write 3152 83
+write 3153 84
+write 3154 85
+write 3155 86
+write 3156 87
+write 3157 88
+write 3158 89
+write 3159 90
+write 3160 91
+write 3161 92
+write 3162 93
+write 3163 94
+write 3164 95
+write 3165 96
+write 3166 97
+write 3167 98
+write 3168 99
+write 3169 100
+write 3170 101
+write 3171 102
+write 3172 103
+write 3173 104
+write 3174 105
+write 3175 106
+write 3176 107
+write 3177 108
+write 3178 109
+write 3179 110
+write 3180 111
+write 3181 112
+write 3182 113
+write 3183 114
+write 3184 115
+write 3185 116
+write 3186 117
+write 3187 118
+read 5525
+read 5526
+read 5527
+read 5528
+read 5529
+read 5530
+read 5531
+read 5532
+read 5533
+read 5534
+read 5535
+read 5536
+read 5537
+read 5538
+read 5539
+read 5540
+read 5541
+read 5542
+read 5543
+read 5544
+read 5545
+read 5546
+read 5547
+read 5548
+read 5549
+read 5550
+read 5551
+read 5552
+read 5553
+read 5554
+read 5555
+read 5556
+read 5557
+read 5558
+read 5559
+read 5560
+read 5561
+read 5562
+read 5563
+read 5564
+read 5565
+read 5566
+read 5567
+read 5568
+read 5569
+read 5570
+read 5571
+read 5572
+read 5573
+read 5574
+read 5575
+read 5576
+read 5577
+read 5578
+read 5579
+read 5580
+read 5581
+read 5582
+read 5583
+read 5584
+read 5585
+read 5586
+read 5587
+read 5588
+read 5589
+read 5590
+read 5591
+read 5592
+read 5593
+read 5594
+read 5595
+read 5596
+write 4252 56
+write 4253 57
+write 4254 58
+write 4255 59
+write 4256 60
+write 4257 61
+write 4258 62
+write 4259 63
+write 4260 64
+write 4261 65
+write 4262 66
+write 4263 67
+write 4264 68
+write 4265 69
+write 4266 70
+write 4267 71
+write 4268 72
+write 4269 73
+write 4270 74
+write 4271 75
+write 4272 76
+write 4273 77
+write 4274 78
+write 4275 79
+write 4276 80
+write 4277 81
+write 4278 82
+write 4279 83
+write 4280 84
+write 4281 85
+write 4282 86
+write 4283 87
+write 4284 88
+write 4285 89
+write 4286 90
+write 4287 91
+write 4288 92
+write 4289 93
+write 4290 94
+write 4291 95
+write 4292 96
+write 4293 97
+write 4294 98
+write 4295 99
+write 4296 100
+write 4297 101
+write 4298 102
+write 4299 103
+write 4300 104
+write 4301 105
+write 4302 106
+write 4303 107
+write 4304 108
+write 4305 109
+write 4306 110
+write 4307 111
+write 4308 112
+write 4309 113
+write 4310 114
+write 4311 115
+write 4312 116
+write 4313 117
+write 4314 118
+write 4315 119
+write 4316 120
+write 4317 121
+write 4318 122
+write 4319 123
+write 4320 124
+write 4321 125
+write 4322 126
+write 4323 127
+write 4324 128
+write 4325 129
+write 4326 130
+write 4327 131
+write 4328 132
+write 4329 133
+write 4330 134
+write 4331 135
+write 4332 136
+write 4333 137
+write 4334 138
+write 4335 139
+write 4336 140
+write 4337 141
+write 4338 142
+write 4339 143
+write 4340 144
+write 4341 145
+write 4342 146
+write 4343 147
+write 4344 148
+write 4345 149
+write 4346 150
+write 4347 151
+write 4348 152
+write 4349 153
+write 4350 154
+write 4351 155
+write 4352 156
+write 4353 157
+read 3789
+read 3790
+read 3791
+read 3792
+read 3793
+read 3794
+read 3795
+read 3796
+read 3797
+read 3798
+read 3799
+read 3800
+read 3801
+read 3802
+read 3803
+read 3804
+read 3805
+read 3806
+read 3807
+read 3808
+read 3809
+read 3810
+read 3811
+read 3812
+read 3813
+read 3814
+read 3815
+read 3816
+read 3817
+read 3818
+read 3819
+read 3820
+read 3821
+read 3822
+read 3823
+read 3824
+read 3825
+read 3826
+read 3827
+read 3828
+read 3829
+read 3830
+read 3831
+read 3832
+read 3833
+read 3834
+read 3835
+read 3836
+read 3837
+read 3838
+read 3839
+read 3840
+read 3841
+read 3842
+read 3843
+read 3844
+read 3845
+read 3846
+read 3847
+read 3848
+read 3849
+read 3850
+read 3851
+read 3852
+read 3853
+read 3854
+read 3855
+read 3856
+read 3857
+read 3858
+read 3859
+read 3860
+read 3861
+read 3862
+read 3863
+read 3864
+read 3865
+read 3866
+read 3867
+read 3868
+read 3869
+read 3870
+read 3871
+read 3872
+read 3873
+read 3874
+read 3875
+read 3876
+read 3877
+read 3878
+read 3879
+read 3880
+write 745 218
+write 746 219
+write 747 220
+write 748 221
+write 749 222
+write 750 223
+write 751 224
+write 752 225
+write 753 226
+write 754 227
+write 755 228
+write 756 229
+write 757 230
+write 758 231
+write 759 232
+write 760 233
+write 761 234
+write 762 235
+write 763 236
+write 764 237
+write 765 238
+write 766 239
+write 767 240
+write 768 241
+write 769 242
+write 770 243
+write 771 244
+write 772 245
+write 773 246
+write 774 247
+write 775 248
+write 776 249
+write 777 250
+write 778 251
+write 779 252
+write 780 253
+write 781 254
+write 782 255
+write 783 0
+write 784 1
+write 785 2
+write 786 3
+write 787 4
+write 788 5
+write 789 6
+write 790 7
+write 791 8
+write 792 9
+write 793 10
+write 794 11
+write 795 12
+write 796 13
+write 797 14
+write 798 15
+write 799 16
+write 800 17
+write 801 18
+write 802 19
+write 803 20
+write 804 21
+write 805 22
+write 806 23
+read 4148
+read 4149
+read 4150
+read 4151
+read 4152
+read 4153
+read 4154
+read 4155
+read 4156
+read 4157
+read 4158
+read 4159
+read 4160
+read 4161
+read 4162
+read 4163
+read 4164
+read 4165
+read 4166
+read 4167
+read 4168
+read 4169
+read 4170
+read 4171
+read 4172
+read 4173
+read 4174
+read 4175
+read 4176
+read 4177
+read 4178
+read 4179
+read 4180
+read 4181
+read 4182
+read 4183
+read 4184
+read 4185
+read 4186
+read 4187
+read 4188
+read 4189
+read 4190
+read 4191
+read 4192
+read 4193
+read 4194
+read 4195
+read 4196
+read 4197
+read 4198
+read 4199
+read 4200
+read 4201
+read 4202
+read 4203
+read 4204
+read 4205
+read 4206
+read 4207
+read 4208
+read 4209
+read 4210
+read 4211
+read 4212
+read 4213
+read 4214
+read 4215
+read 4216
+read 4217
+read 4218
+read 4219
+read 4220
+read 4221
+read 4222
+read 4223
+read 4224
+read 4225
+read 4226
+read 4227
+read 4228
+read 4229
+write 1039 21
+write 1040 22
+write 1041 23
+write 1042 24
+write 1043 25
+write 1044 26
+write 1045 27
+write 1046 28
+write 1047 29
+write 1048 30
+write 1049 31
+write 1050 32
+write 1051 33
+write 1052 34
+write 1053 35
+write 1054 36
+write 1055 37
+write 1056 38
+write 1057 39
+write 1058 40
+write 1059 41
+write 1060 42
+write 1061 43
+write 1062 44
+write 1063 45
+write 1064 46
+write 1065 47
+write 1066 48
+write 1067 49
+write 1068 50
+write 1069 51
+write 1070 52
+write 1071 53
+write 1072 54
+write 1073 55
+write 1074 56
+write 1075 57
+write 1076 58
+write 1077 59
+write 1078 60
+write 1079 61
+write 1080 62
+write 1081 63
+write 1082 64
+write 1083 65
+write 1084 66
+write 1085 67
+write 1086 68
+write 1087 69
+write 1088 70
+write 1089 71
+write 1090 72
+write 1091 73
+write 1092 74
+write 1093 75
+write 1094 76
+write 1095 77
+write 1096 78
+write 1097 79
+write 1098 80
+write 1099 81
+write 1100 82
+write 1101 83
+write 1102 84
+write 1103 85
+write 1104 86
+write 1105 87
+write 1106 88
+write 1107 89
+write 1108 90
+write 1109 91
+write 1110 92
+write 1111 93
+write 1112 94
+write 1113 95
+write 1114 96
+write 1115 97
+write 1116 98
+write 1117 99
+write 1118 100
+write 1119 101
+write 1120 102
+write 1121 103
+write 1122 104
+write 1123 105
+write 1124 106
+write 1125 107
+write 1126 108
+write 1127 109
+write 1128 110
+write 1129 111
+write 1130 112
+read 475
+read 476
+read 477
+read 478
+read 479
+read 480
+read 481
+read 482
+read 483
+read 484
+read 485
+read 486
+read 487
+read 488
+read 489
+read 490
+read 491
+read 492
+read 493
+read 494
+read 495
+read 496
+read 497
+read 498
+read 499
+read 500
+read 501
+read 502
+read 503
+read 504
+read 505
+read 506
+read 507
+read 508
+read 509
+read 510
+read 511
+read 512
+read 513
+read 514
+read 515
+read 516
+read 517
+read 518
+read 519
+read 520
+read 521
+read 522
+read 523
+read 524
+read 525
+read 526
+read 527
+read 528
+read 529
+read 530
+read 531
+read 532
+read 533
+read 534
+read 535
+read 536
+read 537
+read 538
+read 539
+read 540
+read 541
+read 542
+read 543
+read 544
+read 545
+read 546
+read 547
+read 548
+read 549
+read 550
+read 551
+read 552
+read 553
+read 554
+read 555
+read 556
+write 1573 114
+write 1574 115
+write 1575 116
+write 1576 117
+write 1577 118
+write 1578 119
+write 1579 120
+write 1580 121
+write 1581 122
+write 1582 123
+write 1583 124
+write 1584 125
+write 1585 126
+write 1586 127
+write 1587 128
+write 1588 129
+write 1589 130
+write 1590 131
+write 1591 132
+write 1592 133
+write 1593 134
+write 1594 135
+write 1595 136
+write 1596 137
+write 1597 138
+write 1598 139
+write 1599 140
+write 1600 141
+write 1601 142
+write 1602 143
+write 1603 144
+write 1604 145
+write 1605 146
+write 1606 147
+write 1607 148
+write 1608 149
+write 1609 150
+write 1610 151
+write 1611 152
+write 1612 153
+write 1613 154
+write 1614 155
+write 1615 156
+write 1616 157
+write 1617 158
+write 1618 159
+write 1619 160
+write 1620 161
+write 1621 162
+write 1622 163
+write 1623 164
+write 1624 165
+read 4632
+read 4633
+read 4634
+read 4635
+read 4636
+read 4637
+read 4638
+read 4639
+read 4640
+read 4641
+read 4642
+read 4643
+write 1616 240
+write 1617 241
+write 1618 242
+write 1619 243
+write 1620 244
+write 1621 245
+write 1622 246
+write 1623 247
+write 1624 248
+write 1625 249
+write 1626 250
+write 1627 251
+write 1628 252
+write 1629 253
+write 1630 254
+write 1631 255
+write 1632 0
+write 1633 1
+write 1634 2
+write 1635 3
+write 1636 4
+write 1637 5
+write 1638 6
+write 1639 7
+write 1640 8
+write 1641 9
+write 1642 10
+write 1643 11
+write 1644 12
+write 1645 13
+write 1646 14
+write 1647 15
+write 1648 16
+write 1649 17
+write 1650 18
+write 1651 19
+write 1652 20
+write 1653 21
+write 1654 22
+write 1655 23
+write 1656 24
+write 1657 25
+write 1658 26
+write 1659 27
+write 1660 28
+write 1661 29
+write 1662 30
+write 1663 31
+write 1664 32
+write 1665 33
+write 1666 34
+write 1667 35
+write 1668 36
+write 1669 37
+write 1670 38
+write 1671 39
+write 1672 40
+write 1673 41
+write 1674 42
+write 1675 43
+write 1676 44
+write 1677 45
+write 1678 46
+write 1679 47
+write 1680 48
+write 1681 49
+write 1682 50
+write 1683 51
+write 1684 52
+write 1685 53
+write 1686 54
+write 1687 55
+write 1688 56
+write 1689 57
+write 1690 58
+write 1691 59
+write 1692 60
+write 1693 61
+write 1694 62
+write 1695 63
+write 1696 64
+write 1697 65
+write 1698 66
+write 1699 67
+write 1700 68
+write 1701 69
+write 1702 70
+write 1703 71
+write 1704 72
+write 1705 73
+write 1706 74
+write 1707 75
+read 662
+read 663
+read 664
+read 665
+read 666
+read 667
+read 668
+read 669
+read 670
+read 671
+read 672
+read 673
+read 674
+read 675
+read 676
+read 677
+read 678
+read 679
+read 680
+read 681
+read 682
+read 683
+read 684
+read 685
+read 686
+read 687
+read 688
+read 689
+read 690
+read 691
+read 692
+read 693
+read 694
+read 695
+read 696
+read 697
+read 698
+read 699
+read 700
+read 701
+read 702
+read 703
+read 704
+read 705
+read 706
+read 707
+read 708
+read 709
+read 710
+read 711
+read 712
+read 713
+read 714
+read 715
+read 716
+read 717
+read 718
+read 719
+read 720
+read 721
+read 722
+read 723

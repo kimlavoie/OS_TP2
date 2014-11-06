@@ -23,7 +23,7 @@ istream&	operator>>(istream& is, Command& cmd)
 		cmd.cmd = Command::READ;
 	else if ( fcmd == string("write") )
 		cmd.cmd = Command::WRITE;
-    else if ( fcmd == "") throw 0;
+    else if ( fcmd == "") throw 0;              //Kim Lavoie (Un bogue a été corrigé ici)
     else throw string("Invalid command");
 
 	if ( cmd.cmd == Command::WRITE )

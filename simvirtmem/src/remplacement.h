@@ -6,13 +6,13 @@
 #include <iostream>
 class MMU;
 
-// Méthodes de remplacement de frame.
-
 struct Frame
 {
     adresse virt_address;
     adresse ram_address;
 };
+
+// Classes de remplacement de frame.
 
 class ReplacementPolicy
 {

@@ -1,0 +1,7 @@
+write 100 1
+read 100
+write 55 2
+write 55 3
+read 55
+write 200 4
+read 200

@@ -9,23 +9,21 @@
 // --------------------------------------------------------------------------------
 //  Classe:	MMU
 //
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
 // --------------------------------------------------------------------------------
 
 
 // --------------------------------------------------------------------------------
 //  Fonction: MMU
 //
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
 // --------------------------------------------------------------------------------
 MMU::MMU(RAM* _ram, MemSecondaire* _memsec) :
 	ram(_ram),
 	memsec(_memsec),
-	#ifdef RP_CLOCK_ALGORITHM
+	#ifdef RP_CLOCK_ALGORITHM                   //Kim Lavoie: choix de l'algo selon un define
         replacementPolicy(new Horloge(this))
     #else
         replacementPolicy(new FIFO())
@@ -38,35 +36,44 @@ MMU::MMU(RAM* _ram, MemSecondaire* _memsec) :
 // --------------------------------------------------------------------------------
 //  Fonction: virtalloc
 //
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Initialise le répertoire de pages et les tableaux de pages.
 // --------------------------------------------------------------------------------
 bool	MMU::virtalloc(int nb_pages)
 {
     endAddress = nb_pages * 64;
 
-    // Set PDEs
+    // On initialise les PDEs
     for(int i = 0; i < nb_pages/32+1; i++)
     {
         dirpages.getPDE(i).val = (endAddress+(i*64));
 
     }
 
-    // set PTEs
+    // On initialise les PTEs
     for(int i = 0; i < nb_pages; i++)
     {
         word w = i << 6;
-        (*memsec).set(endAddress+(i*2), (w & 0xff00) >> 8);
-        (*memsec).set(endAddress+(i*2)+1, w & 0xff);
+        (*memsec)[endAddress+(i*2)] = (w & 0xff00) >> 8;
+        (*memsec)[endAddress+(i*2)+1] = w & 0xff;
     }
 
 	return true;
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: getPageTable
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Permet d'obtenir l'adresse en mémoire principale du tableau de pages
+//              associé à l'adresse virtuelle a. Si le tableau de pages n'est pas
+//              en mémoire virtuelle, il y a page fault et on le charge avant de
+//              décoder.
+// --------------------------------------------------------------------------------
 adresse MMU::getPageTable(adresse a)
 {
-    cout << dirpages.getPDE(0).val << endl;
     int offsetPDE = a >> 11;
     PDE& entry = dirpages.getPDE(offsetPDE);
     try
@@ -84,6 +91,16 @@ adresse MMU::getPageTable(adresse a)
     return 0;
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: getFrameFromPT
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Renvoie l'adresse en mémoire principale de l'adresse virtuelle a,
+//              à partir de l'adresse de la table de pages. Si la page n'est pas
+//              en mémoire, il y a page fault, et la page est chargée en mémoire,
+//              avant d'être décodée.
+// --------------------------------------------------------------------------------
 adresse MMU::getFrameFromPT(adresse pt, adresse a)
 {
     adresse offset = (a & 0b0000011111000000) >> 5; // 5 and not 6, because 2 bytes per entry
@@ -105,11 +122,25 @@ adresse MMU::getFrameFromPT(adresse pt, adresse a)
     }
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: getRamFromFrame
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Permet de trouver l'adresse en mémoire principale à partir
+//              d'une frame et d'une adresse virtuelle.
+// --------------------------------------------------------------------------------
 adresse MMU::getRamFromFrame(adresse frame, adresse a)
 {
     return frame + (a & 0x003F);
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: updatePTE
+//
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
+// --------------------------------------------------------------------------------
 void MMU::updatePTE(adresse pt, adresse a, bool writeOp)
 {
     int modif;
@@ -125,6 +156,12 @@ void MMU::updatePTE(adresse pt, adresse a, bool writeOp)
     (*ram)[ramAddress] = (*ram)[ramAddress] | modif; //We set the modified bit
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: updatePDE
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+// --------------------------------------------------------------------------------
 void MMU::updatePDE(adresse a, bool writeOp)
 {
     int modif;
@@ -140,6 +177,14 @@ void MMU::updatePDE(adresse a, bool writeOp)
     pde.val = pde.val | modif;
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: pageWalk
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Renvoie l'adresse demandée en faisant un "page walk".
+//              Met également à jour les entrées des tables.
+// --------------------------------------------------------------------------------
 adresse MMU::pageWalk(adresse a, bool writeOp)
 {
     adresse pageTable = getPageTable(a);
@@ -150,13 +195,29 @@ adresse MMU::pageWalk(adresse a, bool writeOp)
     return ramAddress;
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: TLBLookup
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Permet un lookup dans la TLB. Non implémenté, alors renvoie toujours
+//              une exception, comme si on n'avait pas trouvé dans la TLB.
+// --------------------------------------------------------------------------------
 adresse MMU::TLBLookup(adresse a)
 {
-    //TODO: Lookup in TLB
+    // TLB n'a pas été implémenté
     throw TLBMissException(a);
-    return a;
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: getRamAddress
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Cette fonction renvoie l'adresse demandée.
+//              Comme le TLB n'est pas implémenté, TLBMissException est
+//              lancé à chaque fois, causant un "page walk".
+// --------------------------------------------------------------------------------
 adresse MMU::getRamAddress(adresse a, bool writeOp)
 {
     try
@@ -170,67 +231,22 @@ adresse MMU::getRamAddress(adresse a, bool writeOp)
     }
 }
 
-
 // --------------------------------------------------------------------------------
-//  Fonction: read
+//  Fonction: swap
 //
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Permet de charger une page de façon sécuritaire, en enlevant
+//              la page déjà présente en mémoire principale et en faisant
+//              les vérifications nécessaires à garder l'étât interne
+//              cohérent (cette fonction est complètement dégueulasse...)
 // --------------------------------------------------------------------------------
-byte	MMU::read(adresse a)
-{
-    cout << "Dans read" << endl;
-    cout << "  adresse: " << a << endl;
-
-    if(a >= endAddress)
-    {
-        throw MemoryOverflow(a);
-    }
-
-    adresse ramAddress = getRamAddress(a, false);
-
-    cout << "RamAddress: " << ramAddress << endl;
-
-    cout << "  Byte read: " << (int)(*ram)[ramAddress] << endl;
-    cout << endl;
-
-    return (*ram)[ramAddress];
-}
-
-
-// --------------------------------------------------------------------------------
-//  Fonction: write
-//
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
-// --------------------------------------------------------------------------------
-bool	MMU::write(byte b, adresse a)
-{
-    cout << "Dans write" << endl;
-    cout << "  adresse: " << a << endl;
-    cout << "  valeur: " << (int)b << endl;
-
-    if(a >= endAddress)
-    {
-        throw MemoryOverflow(a);
-    }
-
-    adresse ramAddress = getRamAddress(a, true);
-    (*ram)[ramAddress] = b;
-    cout << "RamAddress: " << ramAddress << endl;
-
-    cout << endl;
-	return false;
-}
-
 adresse MMU::swap(adresse virtualAddress)
 {
     Frame& nextFrame = replacementPolicy->getReplacementFrame();
     if(nextFrame.virt_address != 0xFFFF)
     {
-        if((nextFrame.virt_address & 0b1111111111000000) >= endAddress) //if a table
+        if((nextFrame.virt_address & 0b1111111111000000) >= endAddress) //si une table
         {
             int offsetPDE = (nextFrame.virt_address - endAddress) / 64;
             if(offsetPDE == (virtualAddress >> 11))
@@ -251,7 +267,7 @@ adresse MMU::swap(adresse virtualAddress)
             PDE& entry = dirpages.getPDE(offsetPDE);
             if(entry.Present())
             {
-                adresse offset = (nextFrame.virt_address & 0x07C0) >> 5; // 5 and not 6, because 2 bytes per entry
+                adresse offset = (nextFrame.virt_address & 0x07C0) >> 5; // 5 et non 6, car 2 bytes par entrée
                 adresse ramAddress =  entry.PageBase() + offset;
                 word PTEntry = 0;
                 PTEntry += (*ram)[ramAddress];
@@ -260,20 +276,20 @@ adresse MMU::swap(adresse virtualAddress)
                 pte.val = PTEntry;
                 if(pte.Modified())
                 {
-                    // Change PTE
+                    // Changer PTE
                     (*ram)[ramAddress] = nextFrame.virt_address >> 8;
                     (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
-                    //Change PDE
+                    //Changer PDE
                     entry.val = entry.val | 0b0110000000000000;
                     // Store Frame
                     store((nextFrame.virt_address >> 6), nextFrame.ram_address >> 6);
                 }
                 else
                 {
-                    // Change PTE
+                    // Changer PTE
                     (*ram)[ramAddress] = nextFrame.virt_address >> 8;
                     (*ram)[ramAddress+1] = nextFrame.virt_address & 0xFF;
-                    //Change PDE
+                    // Changer PDE
                     entry.val = entry.val | 0b0110000000000000;
                 }
             }
@@ -292,7 +308,7 @@ adresse MMU::swap(adresse virtualAddress)
         }
     }
     load(virtualAddress >> 6, nextFrame.ram_address >> 6);
-    if(virtualAddress >= endAddress) //if it's a table, we don't have to change the PTE
+    if(virtualAddress >= endAddress) //s'il s'agit d'une table :
     {
         PDE& entry2 = dirpages.getPDE((virtualAddress - endAddress) / 64);
         entry2.val = nextFrame.ram_address | 0b1110000000000000;
@@ -309,6 +325,14 @@ adresse MMU::swap(adresse virtualAddress)
     return nextFrame.ram_address;
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: accessed
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Détails: Permet de vérifier si une frame a été accédée depuis le dernier
+//              passage du ReplacementPolicy
+// --------------------------------------------------------------------------------
 bool MMU::accessed(Frame* frame)
 {
     int offset;
@@ -338,6 +362,13 @@ bool MMU::accessed(Frame* frame)
     }
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: set_unaccessed
+//
+//  Par:     Kim Lavoie
+//  Date:    05/11/2014
+//  Details: Permet de désactiver le flag "accédé" de la frame
+// --------------------------------------------------------------------------------
 void MMU::set_unaccessed(Frame* frame)
 {
     int offset;
@@ -367,14 +398,72 @@ void MMU::set_unaccessed(Frame* frame)
 
 }
 
+// --------------------------------------------------------------------------------
+//  Fonction: read
+//
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
+// --------------------------------------------------------------------------------
+byte	MMU::read(adresse a)
+{
+    #ifdef DEBUG
+        cout << "Dans read" << endl;
+        cout << "  adresse: " << a << endl;
+    #endif
+
+    if(a >= endAddress)
+    {
+        throw MemoryOverflow(a);    //Si on tente d'accéder à un espace non alloué
+    }
+
+    adresse ramAddress = getRamAddress(a, false);
+
+    #ifdef DEBUG
+        cout << "  Byte read: " << (int)(*ram)[ramAddress] << endl;
+        cout << endl;
+    #endif
+
+    return (*ram)[ramAddress];
+}
+
+
+// --------------------------------------------------------------------------------
+//  Fonction: write
+//
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
+// --------------------------------------------------------------------------------
+bool	MMU::write(byte b, adresse a)
+{
+    #ifdef DEBUG
+        cout << "Dans write" << endl;
+        cout << "  adresse: " << a << endl;
+        cout << "  valeur: " << (int)b << endl;
+    #endif
+
+    if(a >= endAddress)
+    {
+        throw MemoryOverflow(a);   //Si on tente d'accéder à un espace non alloué
+    }
+
+    // On récupère l'adresse et on écrit le byte
+    adresse ramAddress = getRamAddress(a, true);
+    (*ram)[ramAddress] = b;
+
+    #ifdef DEBUG
+        cout << "  Byte written: " << (int)(*ram)[ramAddress] << endl;
+        cout << endl;
+    #endif
+	return false;
+}
+
 
 // --------------------------------------------------------------------------------
 //  Fonction: load
 //  Fonction d'échange de pages
 //
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
 // --------------------------------------------------------------------------------
 void	MMU::load(int page, int frame)
 {
@@ -388,9 +477,8 @@ void	MMU::load(int page, int frame)
 // --------------------------------------------------------------------------------
 //  Fonction: store
 //
-//  Par:   Yves Chiricota
-//  Date:  12/11/00
-//  MAJ:
+//  Par:   Kim Lavoie
+//  Date:  05/11/2014
 // --------------------------------------------------------------------------------
 void	MMU::store(int page, int frame)
 {

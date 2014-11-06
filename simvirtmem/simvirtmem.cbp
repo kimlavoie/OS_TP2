@@ -11,9 +11,10 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="100 cmd4.txt" />
+				<Option parameters="100 cmd3.txt" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-DDEBUG" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -21,8 +22,10 @@
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="100 cmd3.txt" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add option="-DRP_CLOCK_ALGORITHM" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />

@@ -25,7 +25,11 @@
 MMU::MMU(RAM* _ram, MemSecondaire* _memsec) :
 	ram(_ram),
 	memsec(_memsec),
-	replacementPolicy(new Horloge(this))
+	#ifdef RP_CLOCK_ALGORITHM
+        replacementPolicy(new Horloge(this))
+    #else
+        replacementPolicy(new FIFO())
+    #endif
 {
 }
 

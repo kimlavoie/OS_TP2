@@ -3,6 +3,7 @@
 #include <queue>
 #include "memoire.h"
 #include "MMU.h"
+#include <iostream>
 class MMU;
 
 // Méthodes de remplacement de frame.

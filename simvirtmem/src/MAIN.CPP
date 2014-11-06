@@ -12,7 +12,7 @@ static Simulateur	sim(log2_sz_ram, log2_sz_memsec);
 
 int main (int argc, char** argv)
 {
-	int 	nb_pages = 0;
+    int 	nb_pages = 0;
 	char*	fname = 0;
 
 	if ( argc != 3 )

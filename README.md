@@ -17,7 +17,7 @@ Le système de mémoire virtuelle est complet. Le projet gère la conversion des
 
 J'ai aussi fait un système de log, qui écrit dans "log.txt" lorsqu'une de mes exceptions est lancée.
 
-Pour l'instant, seul l'algorithme FIFO est implémenté.
+Les algorithmes FIFO et Horloge sont fonctionnels.
 
 #### Jeu de tests
 
@@ -31,9 +31,8 @@ Où memory_available est la mémoire déclarée lors de l'appel de simvirt, et r
 
 NB: les algorithmes de la spécification n'étaient pas clairs, alors j'ai pris quelques libertés quant à leur implémentation.
 
-### TODO
+### À noter
 
-* Implémenter algorithme de l'horloge
-* Refactorer le code (nettoyer le code)
-* Documenter le code
-* Tester le programme avec le jeu de tests
+* Le projet Code::Block fait un define DEBUG quand il compile en mode Debug. Si vous compilez en Release, ce define n'existe pas, et rien ne s'affiche (et c'est volontaire).
+* Pour utiliser l'algorithme de l'horloge, il faut faire un define RP_CLOCK_ALGORITHM, sinon FIFO est utilisé par défaut. Dans le projet, le mode Debug est avec FIFO et Release est avec Horloge.
+* Pour exécuter en ligne de commandes: `simvirtmem quantite-memoire fichier-commande`

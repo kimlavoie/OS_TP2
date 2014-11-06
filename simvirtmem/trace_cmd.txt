@@ -1,0 +1,119 @@
+Dans write
+  adresse: 1000
+  valeur: 1
+  Byte written: 1
+
+Dans write
+  adresse: 1500
+  valeur: 2
+  Byte written: 2
+
+Dans write
+  adresse: 2000
+  valeur: 3
+  Byte written: 3
+
+Dans write
+  adresse: 2500
+  valeur: 4
+  Byte written: 4
+
+Dans write
+  adresse: 3000
+  valeur: 5
+  Byte written: 5
+
+Dans write
+  adresse: 4000
+  valeur: 6
+  Byte written: 6
+
+Dans write
+  adresse: 1100
+  valeur: 7
+  Byte written: 7
+
+Dans write
+  adresse: 1600
+  valeur: 8
+  Byte written: 8
+
+Dans write
+  adresse: 1700
+  valeur: 9
+  Byte written: 9
+
+Dans write
+  adresse: 1800
+  valeur: 10
+  Byte written: 10
+
+Dans write
+  adresse: 1900
+  valeur: 11
+  Byte written: 11
+
+Dans write
+  adresse: 2100
+  valeur: 12
+  Byte written: 12
+
+Dans write
+  adresse: 2200
+  valeur: 13
+  Byte written: 13
+
+Dans write
+  adresse: 2300
+  valeur: 14
+  Byte written: 14
+
+Dans write
+  adresse: 2400
+  valeur: 15
+  Byte written: 15
+
+Dans write
+  adresse: 2600
+  valeur: 16
+  Byte written: 16
+
+Dans write
+  adresse: 900
+  valeur: 1
+  Byte written: 1
+
+Dans write
+  adresse: 800
+  valeur: 2
+  Byte written: 2
+
+Dans write
+  adresse: 700
+  valeur: 3
+  Byte written: 3
+
+Dans read
+  adresse: 1000
+  Byte read: 1
+
+Dans read
+  adresse: 1100
+  Byte read: 7
+
+Dans read
+  adresse: 2600
+  Byte read: 16
+
+Dans read
+  adresse: 1500
+  Byte read: 2
+
+Dans read
+  adresse: 0
+  Byte read: 0
+
+Dans write
+  adresse: 10000
+  valeur: 2
+terminate called after throwing an instance of 'MemoryOverflow'

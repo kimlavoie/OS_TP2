@@ -1,0 +1,5410 @@
+Dans write
+  adresse: 5878
+  valeur: 251
+  Byte written: 251
+
+Dans write
+  adresse: 5879
+  valeur: 252
+  Byte written: 252
+
+Dans write
+  adresse: 5880
+  valeur: 253
+  Byte written: 253
+
+Dans write
+  adresse: 5881
+  valeur: 254
+  Byte written: 254
+
+Dans write
+  adresse: 5882
+  valeur: 255
+  Byte written: 255
+
+Dans write
+  adresse: 5883
+  valeur: 0
+  Byte written: 0
+
+Dans write
+  adresse: 5884
+  valeur: 1
+  Byte written: 1
+
+Dans write
+  adresse: 5885
+  valeur: 2
+  Byte written: 2
+
+Dans write
+  adresse: 5886
+  valeur: 3
+  Byte written: 3
+
+Dans write
+  adresse: 5887
+  valeur: 4
+  Byte written: 4
+
+Dans write
+  adresse: 5888
+  valeur: 5
+  Byte written: 5
+
+Dans write
+  adresse: 5889
+  valeur: 6
+  Byte written: 6
+
+Dans write
+  adresse: 5890
+  valeur: 7
+  Byte written: 7
+
+Dans write
+  adresse: 5891
+  valeur: 8
+  Byte written: 8
+
+Dans write
+  adresse: 5892
+  valeur: 9
+  Byte written: 9
+
+Dans write
+  adresse: 5893
+  valeur: 10
+  Byte written: 10
+
+Dans write
+  adresse: 5894
+  valeur: 11
+  Byte written: 11
+
+Dans write
+  adresse: 5895
+  valeur: 12
+  Byte written: 12
+
+Dans write
+  adresse: 5896
+  valeur: 13
+  Byte written: 13
+
+Dans write
+  adresse: 5897
+  valeur: 14
+  Byte written: 14
+
+Dans write
+  adresse: 5898
+  valeur: 15
+  Byte written: 15
+
+Dans write
+  adresse: 5899
+  valeur: 16
+  Byte written: 16
+
+Dans write
+  adresse: 5900
+  valeur: 17
+  Byte written: 17
+
+Dans write
+  adresse: 5901
+  valeur: 18
+  Byte written: 18
+
+Dans write
+  adresse: 5902
+  valeur: 19
+  Byte written: 19
+
+Dans write
+  adresse: 5903
+  valeur: 20
+  Byte written: 20
+
+Dans write
+  adresse: 5904
+  valeur: 21
+  Byte written: 21
+
+Dans write
+  adresse: 5905
+  valeur: 22
+  Byte written: 22
+
+Dans write
+  adresse: 5906
+  valeur: 23
+  Byte written: 23
+
+Dans write
+  adresse: 5907
+  valeur: 24
+  Byte written: 24
+
+Dans write
+  adresse: 5908
+  valeur: 25
+  Byte written: 25
+
+Dans write
+  adresse: 5909
+  valeur: 26
+  Byte written: 26
+
+Dans write
+  adresse: 5910
+  valeur: 27
+  Byte written: 27
+
+Dans write
+  adresse: 5911
+  valeur: 28
+  Byte written: 28
+
+Dans write
+  adresse: 5912
+  valeur: 29
+  Byte written: 29
+
+Dans write
+  adresse: 5913
+  valeur: 30
+  Byte written: 30
+
+Dans write
+  adresse: 5914
+  valeur: 31
+  Byte written: 31
+
+Dans write
+  adresse: 5915
+  valeur: 32
+  Byte written: 32
+
+Dans write
+  adresse: 5916
+  valeur: 33
+  Byte written: 33
+
+Dans write
+  adresse: 5917
+  valeur: 34
+  Byte written: 34
+
+Dans write
+  adresse: 5918
+  valeur: 35
+  Byte written: 35
+
+Dans write
+  adresse: 5919
+  valeur: 36
+  Byte written: 36
+
+Dans write
+  adresse: 5920
+  valeur: 37
+  Byte written: 37
+
+Dans write
+  adresse: 5921
+  valeur: 38
+  Byte written: 38
+
+Dans write
+  adresse: 5922
+  valeur: 39
+  Byte written: 39
+
+Dans write
+  adresse: 5923
+  valeur: 40
+  Byte written: 40
+
+Dans write
+  adresse: 5924
+  valeur: 41
+  Byte written: 41
+
+Dans write
+  adresse: 5925
+  valeur: 42
+  Byte written: 42
+
+Dans write
+  adresse: 5926
+  valeur: 43
+  Byte written: 43
+
+Dans write
+  adresse: 5927
+  valeur: 44
+  Byte written: 44
+
+Dans write
+  adresse: 5928
+  valeur: 45
+  Byte written: 45
+
+Dans write
+  adresse: 5929
+  valeur: 46
+  Byte written: 46
+
+Dans write
+  adresse: 5930
+  valeur: 47
+  Byte written: 47
+
+Dans write
+  adresse: 5931
+  valeur: 48
+  Byte written: 48
+
+Dans write
+  adresse: 5932
+  valeur: 49
+  Byte written: 49
+
+Dans write
+  adresse: 5933
+  valeur: 50
+  Byte written: 50
+
+Dans write
+  adresse: 5934
+  valeur: 51
+  Byte written: 51
+
+Dans write
+  adresse: 5935
+  valeur: 52
+  Byte written: 52
+
+Dans write
+  adresse: 5936
+  valeur: 53
+  Byte written: 53
+
+Dans write
+  adresse: 5937
+  valeur: 54
+  Byte written: 54
+
+Dans write
+  adresse: 5938
+  valeur: 55
+  Byte written: 55
+
+Dans write
+  adresse: 5939
+  valeur: 56
+  Byte written: 56
+
+Dans write
+  adresse: 5940
+  valeur: 57
+  Byte written: 57
+
+Dans write
+  adresse: 5941
+  valeur: 58
+  Byte written: 58
+
+Dans write
+  adresse: 5942
+  valeur: 59
+  Byte written: 59
+
+Dans write
+  adresse: 5943
+  valeur: 60
+  Byte written: 60
+
+Dans write
+  adresse: 5944
+  valeur: 61
+  Byte written: 61
+
+Dans write
+  adresse: 5945
+  valeur: 62
+  Byte written: 62
+
+Dans write
+  adresse: 5946
+  valeur: 63
+  Byte written: 63
+
+Dans write
+  adresse: 5947
+  valeur: 64
+  Byte written: 64
+
+Dans write
+  adresse: 5948
+  valeur: 65
+  Byte written: 65
+
+Dans write
+  adresse: 5949
+  valeur: 66
+  Byte written: 66
+
+Dans write
+  adresse: 5950
+  valeur: 67
+  Byte written: 67
+
+Dans write
+  adresse: 5951
+  valeur: 68
+  Byte written: 68
+
+Dans write
+  adresse: 5952
+  valeur: 69
+  Byte written: 69
+
+Dans write
+  adresse: 5953
+  valeur: 70
+  Byte written: 70
+
+Dans write
+  adresse: 5954
+  valeur: 71
+  Byte written: 71
+
+Dans write
+  adresse: 5955
+  valeur: 72
+  Byte written: 72
+
+Dans write
+  adresse: 5956
+  valeur: 73
+  Byte written: 73
+
+Dans write
+  adresse: 5957
+  valeur: 74
+  Byte written: 74
+
+Dans write
+  adresse: 5958
+  valeur: 75
+  Byte written: 75
+
+Dans write
+  adresse: 5959
+  valeur: 76
+  Byte written: 76
+
+Dans write
+  adresse: 5960
+  valeur: 77
+  Byte written: 77
+
+Dans write
+  adresse: 5961
+  valeur: 78
+  Byte written: 78
+
+Dans write
+  adresse: 5962
+  valeur: 79
+  Byte written: 79
+
+Dans write
+  adresse: 5963
+  valeur: 80
+  Byte written: 80
+
+Dans write
+  adresse: 5964
+  valeur: 81
+  Byte written: 81
+
+Dans write
+  adresse: 5965
+  valeur: 82
+  Byte written: 82
+
+Dans write
+  adresse: 5966
+  valeur: 83
+  Byte written: 83
+
+Dans write
+  adresse: 5967
+  valeur: 84
+  Byte written: 84
+
+Dans write
+  adresse: 5968
+  valeur: 85
+  Byte written: 85
+
+Dans write
+  adresse: 5969
+  valeur: 86
+  Byte written: 86
+
+Dans write
+  adresse: 5970
+  valeur: 87
+  Byte written: 87
+
+Dans write
+  adresse: 5971
+  valeur: 88
+  Byte written: 88
+
+Dans write
+  adresse: 5972
+  valeur: 89
+  Byte written: 89
+
+Dans write
+  adresse: 5973
+  valeur: 90
+  Byte written: 90
+
+Dans write
+  adresse: 5974
+  valeur: 91
+  Byte written: 91
+
+Dans write
+  adresse: 5975
+  valeur: 92
+  Byte written: 92
+
+Dans write
+  adresse: 5976
+  valeur: 93
+  Byte written: 93
+
+Dans write
+  adresse: 5977
+  valeur: 94
+  Byte written: 94
+
+Dans write
+  adresse: 5978
+  valeur: 95
+  Byte written: 95
+
+Dans write
+  adresse: 5979
+  valeur: 96
+  Byte written: 96
+
+Dans read
+  adresse: 1450
+  Byte read: 0
+
+Dans read
+  adresse: 1451
+  Byte read: 0
+
+Dans read
+  adresse: 1452
+  Byte read: 0
+
+Dans read
+  adresse: 1453
+  Byte read: 0
+
+Dans read
+  adresse: 1454
+  Byte read: 0
+
+Dans read
+  adresse: 1455
+  Byte read: 0
+
+Dans read
+  adresse: 1456
+  Byte read: 0
+
+Dans read
+  adresse: 1457
+  Byte read: 0
+
+Dans read
+  adresse: 1458
+  Byte read: 0
+
+Dans read
+  adresse: 1459
+  Byte read: 0
+
+Dans read
+  adresse: 1460
+  Byte read: 0
+
+Dans read
+  adresse: 1461
+  Byte read: 0
+
+Dans write
+  adresse: 189
+  valeur: 23
+  Byte written: 23
+
+Dans write
+  adresse: 190
+  valeur: 24
+  Byte written: 24
+
+Dans write
+  adresse: 191
+  valeur: 25
+  Byte written: 25
+
+Dans write
+  adresse: 192
+  valeur: 26
+  Byte written: 26
+
+Dans write
+  adresse: 193
+  valeur: 27
+  Byte written: 27
+
+Dans write
+  adresse: 194
+  valeur: 28
+  Byte written: 28
+
+Dans write
+  adresse: 195
+  valeur: 29
+  Byte written: 29
+
+Dans write
+  adresse: 196
+  valeur: 30
+  Byte written: 30
+
+Dans write
+  adresse: 197
+  valeur: 31
+  Byte written: 31
+
+Dans write
+  adresse: 198
+  valeur: 32
+  Byte written: 32
+
+Dans write
+  adresse: 199
+  valeur: 33
+  Byte written: 33
+
+Dans write
+  adresse: 200
+  valeur: 34
+  Byte written: 34
+
+Dans write
+  adresse: 201
+  valeur: 35
+  Byte written: 35
+
+Dans write
+  adresse: 202
+  valeur: 36
+  Byte written: 36
+
+Dans write
+  adresse: 203
+  valeur: 37
+  Byte written: 37
+
+Dans write
+  adresse: 204
+  valeur: 38
+  Byte written: 38
+
+Dans write
+  adresse: 205
+  valeur: 39
+  Byte written: 39
+
+Dans write
+  adresse: 206
+  valeur: 40
+  Byte written: 40
+
+Dans write
+  adresse: 207
+  valeur: 41
+  Byte written: 41
+
+Dans write
+  adresse: 208
+  valeur: 42
+  Byte written: 42
+
+Dans write
+  adresse: 209
+  valeur: 43
+  Byte written: 43
+
+Dans write
+  adresse: 210
+  valeur: 44
+  Byte written: 44
+
+Dans write
+  adresse: 211
+  valeur: 45
+  Byte written: 45
+
+Dans write
+  adresse: 212
+  valeur: 46
+  Byte written: 46
+
+Dans write
+  adresse: 213
+  valeur: 47
+  Byte written: 47
+
+Dans write
+  adresse: 214
+  valeur: 48
+  Byte written: 48
+
+Dans write
+  adresse: 215
+  valeur: 49
+  Byte written: 49
+
+Dans write
+  adresse: 216
+  valeur: 50
+  Byte written: 50
+
+Dans write
+  adresse: 217
+  valeur: 51
+  Byte written: 51
+
+Dans write
+  adresse: 218
+  valeur: 52
+  Byte written: 52
+
+Dans write
+  adresse: 219
+  valeur: 53
+  Byte written: 53
+
+Dans write
+  adresse: 220
+  valeur: 54
+  Byte written: 54
+
+Dans write
+  adresse: 221
+  valeur: 55
+  Byte written: 55
+
+Dans write
+  adresse: 222
+  valeur: 56
+  Byte written: 56
+
+Dans write
+  adresse: 223
+  valeur: 57
+  Byte written: 57
+
+Dans write
+  adresse: 224
+  valeur: 58
+  Byte written: 58
+
+Dans write
+  adresse: 225
+  valeur: 59
+  Byte written: 59
+
+Dans write
+  adresse: 226
+  valeur: 60
+  Byte written: 60
+
+Dans write
+  adresse: 227
+  valeur: 61
+  Byte written: 61
+
+Dans write
+  adresse: 228
+  valeur: 62
+  Byte written: 62
+
+Dans write
+  adresse: 229
+  valeur: 63
+  Byte written: 63
+
+Dans write
+  adresse: 230
+  valeur: 64
+  Byte written: 64
+
+Dans write
+  adresse: 231
+  valeur: 65
+  Byte written: 65
+
+Dans write
+  adresse: 232
+  valeur: 66
+  Byte written: 66
+
+Dans write
+  adresse: 233
+  valeur: 67
+  Byte written: 67
+
+Dans write
+  adresse: 234
+  valeur: 68
+  Byte written: 68
+
+Dans write
+  adresse: 235
+  valeur: 69
+  Byte written: 69
+
+Dans write
+  adresse: 236
+  valeur: 70
+  Byte written: 70
+
+Dans write
+  adresse: 237
+  valeur: 71
+  Byte written: 71
+
+Dans write
+  adresse: 238
+  valeur: 72
+  Byte written: 72
+
+Dans write
+  adresse: 239
+  valeur: 73
+  Byte written: 73
+
+Dans write
+  adresse: 240
+  valeur: 74
+  Byte written: 74
+
+Dans write
+  adresse: 241
+  valeur: 75
+  Byte written: 75
+
+Dans write
+  adresse: 242
+  valeur: 76
+  Byte written: 76
+
+Dans write
+  adresse: 243
+  valeur: 77
+  Byte written: 77
+
+Dans write
+  adresse: 244
+  valeur: 78
+  Byte written: 78
+
+Dans write
+  adresse: 245
+  valeur: 79
+  Byte written: 79
+
+Dans write
+  adresse: 246
+  valeur: 80
+  Byte written: 80
+
+Dans write
+  adresse: 247
+  valeur: 81
+  Byte written: 81
+
+Dans write
+  adresse: 248
+  valeur: 82
+  Byte written: 82
+
+Dans write
+  adresse: 249
+  valeur: 83
+  Byte written: 83
+
+Dans write
+  adresse: 250
+  valeur: 84
+  Byte written: 84
+
+Dans read
+  adresse: 1618
+  Byte read: 0
+
+Dans read
+  adresse: 1619
+  Byte read: 0
+
+Dans write
+  adresse: 4191
+  valeur: 98
+  Byte written: 98
+
+Dans write
+  adresse: 4192
+  valeur: 99
+  Byte written: 99
+
+Dans write
+  adresse: 4193
+  valeur: 100
+  Byte written: 100
+
+Dans write
+  adresse: 4194
+  valeur: 101
+  Byte written: 101
+
+Dans write
+  adresse: 4195
+  valeur: 102
+  Byte written: 102
+
+Dans write
+  adresse: 4196
+  valeur: 103
+  Byte written: 103
+
+Dans write
+  adresse: 4197
+  valeur: 104
+  Byte written: 104
+
+Dans write
+  adresse: 4198
+  valeur: 105
+  Byte written: 105
+
+Dans write
+  adresse: 4199
+  valeur: 106
+  Byte written: 106
+
+Dans write
+  adresse: 4200
+  valeur: 107
+  Byte written: 107
+
+Dans write
+  adresse: 4201
+  valeur: 108
+  Byte written: 108
+
+Dans write
+  adresse: 4202
+  valeur: 109
+  Byte written: 109
+
+Dans write
+  adresse: 4203
+  valeur: 110
+  Byte written: 110
+
+Dans write
+  adresse: 4204
+  valeur: 111
+  Byte written: 111
+
+Dans write
+  adresse: 4205
+  valeur: 112
+  Byte written: 112
+
+Dans write
+  adresse: 4206
+  valeur: 113
+  Byte written: 113
+
+Dans write
+  adresse: 4207
+  valeur: 114
+  Byte written: 114
+
+Dans write
+  adresse: 4208
+  valeur: 115
+  Byte written: 115
+
+Dans write
+  adresse: 4209
+  valeur: 116
+  Byte written: 116
+
+Dans write
+  adresse: 4210
+  valeur: 117
+  Byte written: 117
+
+Dans write
+  adresse: 4211
+  valeur: 118
+  Byte written: 118
+
+Dans write
+  adresse: 4212
+  valeur: 119
+  Byte written: 119
+
+Dans write
+  adresse: 4213
+  valeur: 120
+  Byte written: 120
+
+Dans write
+  adresse: 4214
+  valeur: 121
+  Byte written: 121
+
+Dans write
+  adresse: 4215
+  valeur: 122
+  Byte written: 122
+
+Dans write
+  adresse: 4216
+  valeur: 123
+  Byte written: 123
+
+Dans write
+  adresse: 4217
+  valeur: 124
+  Byte written: 124
+
+Dans write
+  adresse: 4218
+  valeur: 125
+  Byte written: 125
+
+Dans write
+  adresse: 4219
+  valeur: 126
+  Byte written: 126
+
+Dans write
+  adresse: 4220
+  valeur: 127
+  Byte written: 127
+
+Dans write
+  adresse: 4221
+  valeur: 128
+  Byte written: 128
+
+Dans write
+  adresse: 4222
+  valeur: 129
+  Byte written: 129
+
+Dans write
+  adresse: 4223
+  valeur: 130
+  Byte written: 130
+
+Dans write
+  adresse: 4224
+  valeur: 131
+  Byte written: 131
+
+Dans write
+  adresse: 4225
+  valeur: 132
+  Byte written: 132
+
+Dans write
+  adresse: 4226
+  valeur: 133
+  Byte written: 133
+
+Dans write
+  adresse: 4227
+  valeur: 134
+  Byte written: 134
+
+Dans write
+  adresse: 4228
+  valeur: 135
+  Byte written: 135
+
+Dans write
+  adresse: 4229
+  valeur: 136
+  Byte written: 136
+
+Dans write
+  adresse: 4230
+  valeur: 137
+  Byte written: 137
+
+Dans write
+  adresse: 4231
+  valeur: 138
+  Byte written: 138
+
+Dans write
+  adresse: 4232
+  valeur: 139
+  Byte written: 139
+
+Dans write
+  adresse: 4233
+  valeur: 140
+  Byte written: 140
+
+Dans write
+  adresse: 4234
+  valeur: 141
+  Byte written: 141
+
+Dans write
+  adresse: 4235
+  valeur: 142
+  Byte written: 142
+
+Dans write
+  adresse: 4236
+  valeur: 143
+  Byte written: 143
+
+Dans write
+  adresse: 4237
+  valeur: 144
+  Byte written: 144
+
+Dans write
+  adresse: 4238
+  valeur: 145
+  Byte written: 145
+
+Dans write
+  adresse: 4239
+  valeur: 146
+  Byte written: 146
+
+Dans write
+  adresse: 4240
+  valeur: 147
+  Byte written: 147
+
+Dans write
+  adresse: 4241
+  valeur: 148
+  Byte written: 148
+
+Dans write
+  adresse: 4242
+  valeur: 149
+  Byte written: 149
+
+Dans write
+  adresse: 4243
+  valeur: 150
+  Byte written: 150
+
+Dans write
+  adresse: 4244
+  valeur: 151
+  Byte written: 151
+
+Dans write
+  adresse: 4245
+  valeur: 152
+  Byte written: 152
+
+Dans write
+  adresse: 4246
+  valeur: 153
+  Byte written: 153
+
+Dans write
+  adresse: 4247
+  valeur: 154
+  Byte written: 154
+
+Dans write
+  adresse: 4248
+  valeur: 155
+  Byte written: 155
+
+Dans write
+  adresse: 4249
+  valeur: 156
+  Byte written: 156
+
+Dans write
+  adresse: 4250
+  valeur: 157
+  Byte written: 157
+
+Dans write
+  adresse: 4251
+  valeur: 158
+  Byte written: 158
+
+Dans write
+  adresse: 4252
+  valeur: 159
+  Byte written: 159
+
+Dans write
+  adresse: 4253
+  valeur: 160
+  Byte written: 160
+
+Dans write
+  adresse: 4254
+  valeur: 161
+  Byte written: 161
+
+Dans write
+  adresse: 4255
+  valeur: 162
+  Byte written: 162
+
+Dans write
+  adresse: 4256
+  valeur: 163
+  Byte written: 163
+
+Dans write
+  adresse: 4257
+  valeur: 164
+  Byte written: 164
+
+Dans write
+  adresse: 4258
+  valeur: 165
+  Byte written: 165
+
+Dans write
+  adresse: 4259
+  valeur: 166
+  Byte written: 166
+
+Dans write
+  adresse: 4260
+  valeur: 167
+  Byte written: 167
+
+Dans write
+  adresse: 4261
+  valeur: 168
+  Byte written: 168
+
+Dans write
+  adresse: 4262
+  valeur: 169
+  Byte written: 169
+
+Dans read
+  adresse: 4875
+  Byte read: 0
+
+Dans read
+  adresse: 4876
+  Byte read: 0
+
+Dans read
+  adresse: 4877
+  Byte read: 0
+
+Dans read
+  adresse: 4878
+  Byte read: 0
+
+Dans read
+  adresse: 4879
+  Byte read: 0
+
+Dans read
+  adresse: 4880
+  Byte read: 0
+
+Dans read
+  adresse: 4881
+  Byte read: 0
+
+Dans read
+  adresse: 4882
+  Byte read: 0
+
+Dans read
+  adresse: 4883
+  Byte read: 0
+
+Dans read
+  adresse: 4884
+  Byte read: 0
+
+Dans read
+  adresse: 4885
+  Byte read: 0
+
+Dans read
+  adresse: 4886
+  Byte read: 0
+
+Dans write
+  adresse: 3450
+  valeur: 251
+  Byte written: 251
+
+Dans write
+  adresse: 3451
+  valeur: 252
+  Byte written: 252
+
+Dans read
+  adresse: 3227
+  Byte read: 0
+
+Dans read
+  adresse: 3228
+  Byte read: 0
+
+Dans read
+  adresse: 3229
+  Byte read: 0
+
+Dans read
+  adresse: 3230
+  Byte read: 0
+
+Dans read
+  adresse: 3231
+  Byte read: 0
+
+Dans read
+  adresse: 3232
+  Byte read: 0
+
+Dans read
+  adresse: 3233
+  Byte read: 0
+
+Dans read
+  adresse: 3234
+  Byte read: 0
+
+Dans read
+  adresse: 3235
+  Byte read: 0
+
+Dans read
+  adresse: 3236
+  Byte read: 0
+
+Dans read
+  adresse: 3237
+  Byte read: 0
+
+Dans read
+  adresse: 3238
+  Byte read: 0
+
+Dans write
+  adresse: 3096
+  valeur: 27
+  Byte written: 27
+
+Dans write
+  adresse: 3097
+  valeur: 28
+  Byte written: 28
+
+Dans write
+  adresse: 3098
+  valeur: 29
+  Byte written: 29
+
+Dans write
+  adresse: 3099
+  valeur: 30
+  Byte written: 30
+
+Dans write
+  adresse: 3100
+  valeur: 31
+  Byte written: 31
+
+Dans write
+  adresse: 3101
+  valeur: 32
+  Byte written: 32
+
+Dans write
+  adresse: 3102
+  valeur: 33
+  Byte written: 33
+
+Dans write
+  adresse: 3103
+  valeur: 34
+  Byte written: 34
+
+Dans write
+  adresse: 3104
+  valeur: 35
+  Byte written: 35
+
+Dans write
+  adresse: 3105
+  valeur: 36
+  Byte written: 36
+
+Dans write
+  adresse: 3106
+  valeur: 37
+  Byte written: 37
+
+Dans write
+  adresse: 3107
+  valeur: 38
+  Byte written: 38
+
+Dans write
+  adresse: 3108
+  valeur: 39
+  Byte written: 39
+
+Dans write
+  adresse: 3109
+  valeur: 40
+  Byte written: 40
+
+Dans write
+  adresse: 3110
+  valeur: 41
+  Byte written: 41
+
+Dans write
+  adresse: 3111
+  valeur: 42
+  Byte written: 42
+
+Dans write
+  adresse: 3112
+  valeur: 43
+  Byte written: 43
+
+Dans write
+  adresse: 3113
+  valeur: 44
+  Byte written: 44
+
+Dans write
+  adresse: 3114
+  valeur: 45
+  Byte written: 45
+
+Dans write
+  adresse: 3115
+  valeur: 46
+  Byte written: 46
+
+Dans write
+  adresse: 3116
+  valeur: 47
+  Byte written: 47
+
+Dans write
+  adresse: 3117
+  valeur: 48
+  Byte written: 48
+
+Dans write
+  adresse: 3118
+  valeur: 49
+  Byte written: 49
+
+Dans write
+  adresse: 3119
+  valeur: 50
+  Byte written: 50
+
+Dans write
+  adresse: 3120
+  valeur: 51
+  Byte written: 51
+
+Dans write
+  adresse: 3121
+  valeur: 52
+  Byte written: 52
+
+Dans write
+  adresse: 3122
+  valeur: 53
+  Byte written: 53
+
+Dans write
+  adresse: 3123
+  valeur: 54
+  Byte written: 54
+
+Dans write
+  adresse: 3124
+  valeur: 55
+  Byte written: 55
+
+Dans write
+  adresse: 3125
+  valeur: 56
+  Byte written: 56
+
+Dans write
+  adresse: 3126
+  valeur: 57
+  Byte written: 57
+
+Dans write
+  adresse: 3127
+  valeur: 58
+  Byte written: 58
+
+Dans write
+  adresse: 3128
+  valeur: 59
+  Byte written: 59
+
+Dans write
+  adresse: 3129
+  valeur: 60
+  Byte written: 60
+
+Dans write
+  adresse: 3130
+  valeur: 61
+  Byte written: 61
+
+Dans write
+  adresse: 3131
+  valeur: 62
+  Byte written: 62
+
+Dans write
+  adresse: 3132
+  valeur: 63
+  Byte written: 63
+
+Dans write
+  adresse: 3133
+  valeur: 64
+  Byte written: 64
+
+Dans write
+  adresse: 3134
+  valeur: 65
+  Byte written: 65
+
+Dans write
+  adresse: 3135
+  valeur: 66
+  Byte written: 66
+
+Dans write
+  adresse: 3136
+  valeur: 67
+  Byte written: 67
+
+Dans write
+  adresse: 3137
+  valeur: 68
+  Byte written: 68
+
+Dans write
+  adresse: 3138
+  valeur: 69
+  Byte written: 69
+
+Dans write
+  adresse: 3139
+  valeur: 70
+  Byte written: 70
+
+Dans write
+  adresse: 3140
+  valeur: 71
+  Byte written: 71
+
+Dans write
+  adresse: 3141
+  valeur: 72
+  Byte written: 72
+
+Dans write
+  adresse: 3142
+  valeur: 73
+  Byte written: 73
+
+Dans write
+  adresse: 3143
+  valeur: 74
+  Byte written: 74
+
+Dans write
+  adresse: 3144
+  valeur: 75
+  Byte written: 75
+
+Dans write
+  adresse: 3145
+  valeur: 76
+  Byte written: 76
+
+Dans write
+  adresse: 3146
+  valeur: 77
+  Byte written: 77
+
+Dans write
+  adresse: 3147
+  valeur: 78
+  Byte written: 78
+
+Dans write
+  adresse: 3148
+  valeur: 79
+  Byte written: 79
+
+Dans write
+  adresse: 3149
+  valeur: 80
+  Byte written: 80
+
+Dans write
+  adresse: 3150
+  valeur: 81
+  Byte written: 81
+
+Dans write
+  adresse: 3151
+  valeur: 82
+  Byte written: 82
+
+Dans write
+  adresse: 3152
+  valeur: 83
+  Byte written: 83
+
+Dans write
+  adresse: 3153
+  valeur: 84
+  Byte written: 84
+
+Dans write
+  adresse: 3154
+  valeur: 85
+  Byte written: 85
+
+Dans write
+  adresse: 3155
+  valeur: 86
+  Byte written: 86
+
+Dans write
+  adresse: 3156
+  valeur: 87
+  Byte written: 87
+
+Dans write
+  adresse: 3157
+  valeur: 88
+  Byte written: 88
+
+Dans write
+  adresse: 3158
+  valeur: 89
+  Byte written: 89
+
+Dans write
+  adresse: 3159
+  valeur: 90
+  Byte written: 90
+
+Dans write
+  adresse: 3160
+  valeur: 91
+  Byte written: 91
+
+Dans write
+  adresse: 3161
+  valeur: 92
+  Byte written: 92
+
+Dans write
+  adresse: 3162
+  valeur: 93
+  Byte written: 93
+
+Dans write
+  adresse: 3163
+  valeur: 94
+  Byte written: 94
+
+Dans write
+  adresse: 3164
+  valeur: 95
+  Byte written: 95
+
+Dans write
+  adresse: 3165
+  valeur: 96
+  Byte written: 96
+
+Dans write
+  adresse: 3166
+  valeur: 97
+  Byte written: 97
+
+Dans write
+  adresse: 3167
+  valeur: 98
+  Byte written: 98
+
+Dans write
+  adresse: 3168
+  valeur: 99
+  Byte written: 99
+
+Dans write
+  adresse: 3169
+  valeur: 100
+  Byte written: 100
+
+Dans write
+  adresse: 3170
+  valeur: 101
+  Byte written: 101
+
+Dans write
+  adresse: 3171
+  valeur: 102
+  Byte written: 102
+
+Dans write
+  adresse: 3172
+  valeur: 103
+  Byte written: 103
+
+Dans write
+  adresse: 3173
+  valeur: 104
+  Byte written: 104
+
+Dans write
+  adresse: 3174
+  valeur: 105
+  Byte written: 105
+
+Dans write
+  adresse: 3175
+  valeur: 106
+  Byte written: 106
+
+Dans write
+  adresse: 3176
+  valeur: 107
+  Byte written: 107
+
+Dans write
+  adresse: 3177
+  valeur: 108
+  Byte written: 108
+
+Dans write
+  adresse: 3178
+  valeur: 109
+  Byte written: 109
+
+Dans write
+  adresse: 3179
+  valeur: 110
+  Byte written: 110
+
+Dans write
+  adresse: 3180
+  valeur: 111
+  Byte written: 111
+
+Dans write
+  adresse: 3181
+  valeur: 112
+  Byte written: 112
+
+Dans write
+  adresse: 3182
+  valeur: 113
+  Byte written: 113
+
+Dans write
+  adresse: 3183
+  valeur: 114
+  Byte written: 114
+
+Dans write
+  adresse: 3184
+  valeur: 115
+  Byte written: 115
+
+Dans write
+  adresse: 3185
+  valeur: 116
+  Byte written: 116
+
+Dans write
+  adresse: 3186
+  valeur: 117
+  Byte written: 117
+
+Dans write
+  adresse: 3187
+  valeur: 118
+  Byte written: 118
+
+Dans read
+  adresse: 5525
+  Byte read: 0
+
+Dans read
+  adresse: 5526
+  Byte read: 0
+
+Dans read
+  adresse: 5527
+  Byte read: 0
+
+Dans read
+  adresse: 5528
+  Byte read: 0
+
+Dans read
+  adresse: 5529
+  Byte read: 0
+
+Dans read
+  adresse: 5530
+  Byte read: 0
+
+Dans read
+  adresse: 5531
+  Byte read: 0
+
+Dans read
+  adresse: 5532
+  Byte read: 0
+
+Dans read
+  adresse: 5533
+  Byte read: 0
+
+Dans read
+  adresse: 5534
+  Byte read: 0
+
+Dans read
+  adresse: 5535
+  Byte read: 0
+
+Dans read
+  adresse: 5536
+  Byte read: 0
+
+Dans read
+  adresse: 5537
+  Byte read: 0
+
+Dans read
+  adresse: 5538
+  Byte read: 0
+
+Dans read
+  adresse: 5539
+  Byte read: 0
+
+Dans read
+  adresse: 5540
+  Byte read: 0
+
+Dans read
+  adresse: 5541
+  Byte read: 0
+
+Dans read
+  adresse: 5542
+  Byte read: 0
+
+Dans read
+  adresse: 5543
+  Byte read: 0
+
+Dans read
+  adresse: 5544
+  Byte read: 0
+
+Dans read
+  adresse: 5545
+  Byte read: 0
+
+Dans read
+  adresse: 5546
+  Byte read: 0
+
+Dans read
+  adresse: 5547
+  Byte read: 0
+
+Dans read
+  adresse: 5548
+  Byte read: 0
+
+Dans read
+  adresse: 5549
+  Byte read: 0
+
+Dans read
+  adresse: 5550
+  Byte read: 0
+
+Dans read
+  adresse: 5551
+  Byte read: 0
+
+Dans read
+  adresse: 5552
+  Byte read: 0
+
+Dans read
+  adresse: 5553
+  Byte read: 0
+
+Dans read
+  adresse: 5554
+  Byte read: 0
+
+Dans read
+  adresse: 5555
+  Byte read: 0
+
+Dans read
+  adresse: 5556
+  Byte read: 0
+
+Dans read
+  adresse: 5557
+  Byte read: 0
+
+Dans read
+  adresse: 5558
+  Byte read: 0
+
+Dans read
+  adresse: 5559
+  Byte read: 0
+
+Dans read
+  adresse: 5560
+  Byte read: 0
+
+Dans read
+  adresse: 5561
+  Byte read: 0
+
+Dans read
+  adresse: 5562
+  Byte read: 0
+
+Dans read
+  adresse: 5563
+  Byte read: 0
+
+Dans read
+  adresse: 5564
+  Byte read: 0
+
+Dans read
+  adresse: 5565
+  Byte read: 0
+
+Dans read
+  adresse: 5566
+  Byte read: 0
+
+Dans read
+  adresse: 5567
+  Byte read: 0
+
+Dans read
+  adresse: 5568
+  Byte read: 0
+
+Dans read
+  adresse: 5569
+  Byte read: 0
+
+Dans read
+  adresse: 5570
+  Byte read: 0
+
+Dans read
+  adresse: 5571
+  Byte read: 0
+
+Dans read
+  adresse: 5572
+  Byte read: 0
+
+Dans read
+  adresse: 5573
+  Byte read: 0
+
+Dans read
+  adresse: 5574
+  Byte read: 0
+
+Dans read
+  adresse: 5575
+  Byte read: 0
+
+Dans read
+  adresse: 5576
+  Byte read: 0
+
+Dans read
+  adresse: 5577
+  Byte read: 0
+
+Dans read
+  adresse: 5578
+  Byte read: 0
+
+Dans read
+  adresse: 5579
+  Byte read: 0
+
+Dans read
+  adresse: 5580
+  Byte read: 0
+
+Dans read
+  adresse: 5581
+  Byte read: 0
+
+Dans read
+  adresse: 5582
+  Byte read: 0
+
+Dans read
+  adresse: 5583
+  Byte read: 0
+
+Dans read
+  adresse: 5584
+  Byte read: 0
+
+Dans read
+  adresse: 5585
+  Byte read: 0
+
+Dans read
+  adresse: 5586
+  Byte read: 0
+
+Dans read
+  adresse: 5587
+  Byte read: 0
+
+Dans read
+  adresse: 5588
+  Byte read: 0
+
+Dans read
+  adresse: 5589
+  Byte read: 0
+
+Dans read
+  adresse: 5590
+  Byte read: 0
+
+Dans read
+  adresse: 5591
+  Byte read: 0
+
+Dans read
+  adresse: 5592
+  Byte read: 0
+
+Dans read
+  adresse: 5593
+  Byte read: 0
+
+Dans read
+  adresse: 5594
+  Byte read: 0
+
+Dans read
+  adresse: 5595
+  Byte read: 0
+
+Dans read
+  adresse: 5596
+  Byte read: 0
+
+Dans write
+  adresse: 4252
+  valeur: 56
+  Byte written: 56
+
+Dans write
+  adresse: 4253
+  valeur: 57
+  Byte written: 57
+
+Dans write
+  adresse: 4254
+  valeur: 58
+  Byte written: 58
+
+Dans write
+  adresse: 4255
+  valeur: 59
+  Byte written: 59
+
+Dans write
+  adresse: 4256
+  valeur: 60
+  Byte written: 60
+
+Dans write
+  adresse: 4257
+  valeur: 61
+  Byte written: 61
+
+Dans write
+  adresse: 4258
+  valeur: 62
+  Byte written: 62
+
+Dans write
+  adresse: 4259
+  valeur: 63
+  Byte written: 63
+
+Dans write
+  adresse: 4260
+  valeur: 64
+  Byte written: 64
+
+Dans write
+  adresse: 4261
+  valeur: 65
+  Byte written: 65
+
+Dans write
+  adresse: 4262
+  valeur: 66
+  Byte written: 66
+
+Dans write
+  adresse: 4263
+  valeur: 67
+  Byte written: 67
+
+Dans write
+  adresse: 4264
+  valeur: 68
+  Byte written: 68
+
+Dans write
+  adresse: 4265
+  valeur: 69
+  Byte written: 69
+
+Dans write
+  adresse: 4266
+  valeur: 70
+  Byte written: 70
+
+Dans write
+  adresse: 4267
+  valeur: 71
+  Byte written: 71
+
+Dans write
+  adresse: 4268
+  valeur: 72
+  Byte written: 72
+
+Dans write
+  adresse: 4269
+  valeur: 73
+  Byte written: 73
+
+Dans write
+  adresse: 4270
+  valeur: 74
+  Byte written: 74
+
+Dans write
+  adresse: 4271
+  valeur: 75
+  Byte written: 75
+
+Dans write
+  adresse: 4272
+  valeur: 76
+  Byte written: 76
+
+Dans write
+  adresse: 4273
+  valeur: 77
+  Byte written: 77
+
+Dans write
+  adresse: 4274
+  valeur: 78
+  Byte written: 78
+
+Dans write
+  adresse: 4275
+  valeur: 79
+  Byte written: 79
+
+Dans write
+  adresse: 4276
+  valeur: 80
+  Byte written: 80
+
+Dans write
+  adresse: 4277
+  valeur: 81
+  Byte written: 81
+
+Dans write
+  adresse: 4278
+  valeur: 82
+  Byte written: 82
+
+Dans write
+  adresse: 4279
+  valeur: 83
+  Byte written: 83
+
+Dans write
+  adresse: 4280
+  valeur: 84
+  Byte written: 84
+
+Dans write
+  adresse: 4281
+  valeur: 85
+  Byte written: 85
+
+Dans write
+  adresse: 4282
+  valeur: 86
+  Byte written: 86
+
+Dans write
+  adresse: 4283
+  valeur: 87
+  Byte written: 87
+
+Dans write
+  adresse: 4284
+  valeur: 88
+  Byte written: 88
+
+Dans write
+  adresse: 4285
+  valeur: 89
+  Byte written: 89
+
+Dans write
+  adresse: 4286
+  valeur: 90
+  Byte written: 90
+
+Dans write
+  adresse: 4287
+  valeur: 91
+  Byte written: 91
+
+Dans write
+  adresse: 4288
+  valeur: 92
+  Byte written: 92
+
+Dans write
+  adresse: 4289
+  valeur: 93
+  Byte written: 93
+
+Dans write
+  adresse: 4290
+  valeur: 94
+  Byte written: 94
+
+Dans write
+  adresse: 4291
+  valeur: 95
+  Byte written: 95
+
+Dans write
+  adresse: 4292
+  valeur: 96
+  Byte written: 96
+
+Dans write
+  adresse: 4293
+  valeur: 97
+  Byte written: 97
+
+Dans write
+  adresse: 4294
+  valeur: 98
+  Byte written: 98
+
+Dans write
+  adresse: 4295
+  valeur: 99
+  Byte written: 99
+
+Dans write
+  adresse: 4296
+  valeur: 100
+  Byte written: 100
+
+Dans write
+  adresse: 4297
+  valeur: 101
+  Byte written: 101
+
+Dans write
+  adresse: 4298
+  valeur: 102
+  Byte written: 102
+
+Dans write
+  adresse: 4299
+  valeur: 103
+  Byte written: 103
+
+Dans write
+  adresse: 4300
+  valeur: 104
+  Byte written: 104
+
+Dans write
+  adresse: 4301
+  valeur: 105
+  Byte written: 105
+
+Dans write
+  adresse: 4302
+  valeur: 106
+  Byte written: 106
+
+Dans write
+  adresse: 4303
+  valeur: 107
+  Byte written: 107
+
+Dans write
+  adresse: 4304
+  valeur: 108
+  Byte written: 108
+
+Dans write
+  adresse: 4305
+  valeur: 109
+  Byte written: 109
+
+Dans write
+  adresse: 4306
+  valeur: 110
+  Byte written: 110
+
+Dans write
+  adresse: 4307
+  valeur: 111
+  Byte written: 111
+
+Dans write
+  adresse: 4308
+  valeur: 112
+  Byte written: 112
+
+Dans write
+  adresse: 4309
+  valeur: 113
+  Byte written: 113
+
+Dans write
+  adresse: 4310
+  valeur: 114
+  Byte written: 114
+
+Dans write
+  adresse: 4311
+  valeur: 115
+  Byte written: 115
+
+Dans write
+  adresse: 4312
+  valeur: 116
+  Byte written: 116
+
+Dans write
+  adresse: 4313
+  valeur: 117
+  Byte written: 117
+
+Dans write
+  adresse: 4314
+  valeur: 118
+  Byte written: 118
+
+Dans write
+  adresse: 4315
+  valeur: 119
+  Byte written: 119
+
+Dans write
+  adresse: 4316
+  valeur: 120
+  Byte written: 120
+
+Dans write
+  adresse: 4317
+  valeur: 121
+  Byte written: 121
+
+Dans write
+  adresse: 4318
+  valeur: 122
+  Byte written: 122
+
+Dans write
+  adresse: 4319
+  valeur: 123
+  Byte written: 123
+
+Dans write
+  adresse: 4320
+  valeur: 124
+  Byte written: 124
+
+Dans write
+  adresse: 4321
+  valeur: 125
+  Byte written: 125
+
+Dans write
+  adresse: 4322
+  valeur: 126
+  Byte written: 126
+
+Dans write
+  adresse: 4323
+  valeur: 127
+  Byte written: 127
+
+Dans write
+  adresse: 4324
+  valeur: 128
+  Byte written: 128
+
+Dans write
+  adresse: 4325
+  valeur: 129
+  Byte written: 129
+
+Dans write
+  adresse: 4326
+  valeur: 130
+  Byte written: 130
+
+Dans write
+  adresse: 4327
+  valeur: 131
+  Byte written: 131
+
+Dans write
+  adresse: 4328
+  valeur: 132
+  Byte written: 132
+
+Dans write
+  adresse: 4329
+  valeur: 133
+  Byte written: 133
+
+Dans write
+  adresse: 4330
+  valeur: 134
+  Byte written: 134
+
+Dans write
+  adresse: 4331
+  valeur: 135
+  Byte written: 135
+
+Dans write
+  adresse: 4332
+  valeur: 136
+  Byte written: 136
+
+Dans write
+  adresse: 4333
+  valeur: 137
+  Byte written: 137
+
+Dans write
+  adresse: 4334
+  valeur: 138
+  Byte written: 138
+
+Dans write
+  adresse: 4335
+  valeur: 139
+  Byte written: 139
+
+Dans write
+  adresse: 4336
+  valeur: 140
+  Byte written: 140
+
+Dans write
+  adresse: 4337
+  valeur: 141
+  Byte written: 141
+
+Dans write
+  adresse: 4338
+  valeur: 142
+  Byte written: 142
+
+Dans write
+  adresse: 4339
+  valeur: 143
+  Byte written: 143
+
+Dans write
+  adresse: 4340
+  valeur: 144
+  Byte written: 144
+
+Dans write
+  adresse: 4341
+  valeur: 145
+  Byte written: 145
+
+Dans write
+  adresse: 4342
+  valeur: 146
+  Byte written: 146
+
+Dans write
+  adresse: 4343
+  valeur: 147
+  Byte written: 147
+
+Dans write
+  adresse: 4344
+  valeur: 148
+  Byte written: 148
+
+Dans write
+  adresse: 4345
+  valeur: 149
+  Byte written: 149
+
+Dans write
+  adresse: 4346
+  valeur: 150
+  Byte written: 150
+
+Dans write
+  adresse: 4347
+  valeur: 151
+  Byte written: 151
+
+Dans write
+  adresse: 4348
+  valeur: 152
+  Byte written: 152
+
+Dans write
+  adresse: 4349
+  valeur: 153
+  Byte written: 153
+
+Dans write
+  adresse: 4350
+  valeur: 154
+  Byte written: 154
+
+Dans write
+  adresse: 4351
+  valeur: 155
+  Byte written: 155
+
+Dans write
+  adresse: 4352
+  valeur: 156
+  Byte written: 156
+
+Dans write
+  adresse: 4353
+  valeur: 157
+  Byte written: 157
+
+Dans read
+  adresse: 3789
+  Byte read: 0
+
+Dans read
+  adresse: 3790
+  Byte read: 0
+
+Dans read
+  adresse: 3791
+  Byte read: 0
+
+Dans read
+  adresse: 3792
+  Byte read: 0
+
+Dans read
+  adresse: 3793
+  Byte read: 0
+
+Dans read
+  adresse: 3794
+  Byte read: 0
+
+Dans read
+  adresse: 3795
+  Byte read: 0
+
+Dans read
+  adresse: 3796
+  Byte read: 0
+
+Dans read
+  adresse: 3797
+  Byte read: 0
+
+Dans read
+  adresse: 3798
+  Byte read: 0
+
+Dans read
+  adresse: 3799
+  Byte read: 0
+
+Dans read
+  adresse: 3800
+  Byte read: 0
+
+Dans read
+  adresse: 3801
+  Byte read: 0
+
+Dans read
+  adresse: 3802
+  Byte read: 0
+
+Dans read
+  adresse: 3803
+  Byte read: 0
+
+Dans read
+  adresse: 3804
+  Byte read: 0
+
+Dans read
+  adresse: 3805
+  Byte read: 0
+
+Dans read
+  adresse: 3806
+  Byte read: 0
+
+Dans read
+  adresse: 3807
+  Byte read: 0
+
+Dans read
+  adresse: 3808
+  Byte read: 0
+
+Dans read
+  adresse: 3809
+  Byte read: 0
+
+Dans read
+  adresse: 3810
+  Byte read: 0
+
+Dans read
+  adresse: 3811
+  Byte read: 0
+
+Dans read
+  adresse: 3812
+  Byte read: 0
+
+Dans read
+  adresse: 3813
+  Byte read: 0
+
+Dans read
+  adresse: 3814
+  Byte read: 0
+
+Dans read
+  adresse: 3815
+  Byte read: 0
+
+Dans read
+  adresse: 3816
+  Byte read: 0
+
+Dans read
+  adresse: 3817
+  Byte read: 0
+
+Dans read
+  adresse: 3818
+  Byte read: 0
+
+Dans read
+  adresse: 3819
+  Byte read: 0
+
+Dans read
+  adresse: 3820
+  Byte read: 0
+
+Dans read
+  adresse: 3821
+  Byte read: 0
+
+Dans read
+  adresse: 3822
+  Byte read: 0
+
+Dans read
+  adresse: 3823
+  Byte read: 0
+
+Dans read
+  adresse: 3824
+  Byte read: 0
+
+Dans read
+  adresse: 3825
+  Byte read: 0
+
+Dans read
+  adresse: 3826
+  Byte read: 0
+
+Dans read
+  adresse: 3827
+  Byte read: 0
+
+Dans read
+  adresse: 3828
+  Byte read: 0
+
+Dans read
+  adresse: 3829
+  Byte read: 0
+
+Dans read
+  adresse: 3830
+  Byte read: 0
+
+Dans read
+  adresse: 3831
+  Byte read: 0
+
+Dans read
+  adresse: 3832
+  Byte read: 0
+
+Dans read
+  adresse: 3833
+  Byte read: 0
+
+Dans read
+  adresse: 3834
+  Byte read: 0
+
+Dans read
+  adresse: 3835
+  Byte read: 0
+
+Dans read
+  adresse: 3836
+  Byte read: 0
+
+Dans read
+  adresse: 3837
+  Byte read: 0
+
+Dans read
+  adresse: 3838
+  Byte read: 0
+
+Dans read
+  adresse: 3839
+  Byte read: 0
+
+Dans read
+  adresse: 3840
+  Byte read: 0
+
+Dans read
+  adresse: 3841
+  Byte read: 0
+
+Dans read
+  adresse: 3842
+  Byte read: 0
+
+Dans read
+  adresse: 3843
+  Byte read: 0
+
+Dans read
+  adresse: 3844
+  Byte read: 0
+
+Dans read
+  adresse: 3845
+  Byte read: 0
+
+Dans read
+  adresse: 3846
+  Byte read: 0
+
+Dans read
+  adresse: 3847
+  Byte read: 0
+
+Dans read
+  adresse: 3848
+  Byte read: 0
+
+Dans read
+  adresse: 3849
+  Byte read: 0
+
+Dans read
+  adresse: 3850
+  Byte read: 0
+
+Dans read
+  adresse: 3851
+  Byte read: 0
+
+Dans read
+  adresse: 3852
+  Byte read: 0
+
+Dans read
+  adresse: 3853
+  Byte read: 0
+
+Dans read
+  adresse: 3854
+  Byte read: 0
+
+Dans read
+  adresse: 3855
+  Byte read: 0
+
+Dans read
+  adresse: 3856
+  Byte read: 0
+
+Dans read
+  adresse: 3857
+  Byte read: 0
+
+Dans read
+  adresse: 3858
+  Byte read: 0
+
+Dans read
+  adresse: 3859
+  Byte read: 0
+
+Dans read
+  adresse: 3860
+  Byte read: 0
+
+Dans read
+  adresse: 3861
+  Byte read: 0
+
+Dans read
+  adresse: 3862
+  Byte read: 0
+
+Dans read
+  adresse: 3863
+  Byte read: 0
+
+Dans read
+  adresse: 3864
+  Byte read: 0
+
+Dans read
+  adresse: 3865
+  Byte read: 0
+
+Dans read
+  adresse: 3866
+  Byte read: 0
+
+Dans read
+  adresse: 3867
+  Byte read: 0
+
+Dans read
+  adresse: 3868
+  Byte read: 0
+
+Dans read
+  adresse: 3869
+  Byte read: 0
+
+Dans read
+  adresse: 3870
+  Byte read: 0
+
+Dans read
+  adresse: 3871
+  Byte read: 0
+
+Dans read
+  adresse: 3872
+  Byte read: 0
+
+Dans read
+  adresse: 3873
+  Byte read: 0
+
+Dans read
+  adresse: 3874
+  Byte read: 0
+
+Dans read
+  adresse: 3875
+  Byte read: 0
+
+Dans read
+  adresse: 3876
+  Byte read: 0
+
+Dans read
+  adresse: 3877
+  Byte read: 0
+
+Dans read
+  adresse: 3878
+  Byte read: 0
+
+Dans read
+  adresse: 3879
+  Byte read: 0
+
+Dans read
+  adresse: 3880
+  Byte read: 0
+
+Dans write
+  adresse: 745
+  valeur: 218
+  Byte written: 218
+
+Dans write
+  adresse: 746
+  valeur: 219
+  Byte written: 219
+
+Dans write
+  adresse: 747
+  valeur: 220
+  Byte written: 220
+
+Dans write
+  adresse: 748
+  valeur: 221
+  Byte written: 221
+
+Dans write
+  adresse: 749
+  valeur: 222
+  Byte written: 222
+
+Dans write
+  adresse: 750
+  valeur: 223
+  Byte written: 223
+
+Dans write
+  adresse: 751
+  valeur: 224
+  Byte written: 224
+
+Dans write
+  adresse: 752
+  valeur: 225
+  Byte written: 225
+
+Dans write
+  adresse: 753
+  valeur: 226
+  Byte written: 226
+
+Dans write
+  adresse: 754
+  valeur: 227
+  Byte written: 227
+
+Dans write
+  adresse: 755
+  valeur: 228
+  Byte written: 228
+
+Dans write
+  adresse: 756
+  valeur: 229
+  Byte written: 229
+
+Dans write
+  adresse: 757
+  valeur: 230
+  Byte written: 230
+
+Dans write
+  adresse: 758
+  valeur: 231
+  Byte written: 231
+
+Dans write
+  adresse: 759
+  valeur: 232
+  Byte written: 232
+
+Dans write
+  adresse: 760
+  valeur: 233
+  Byte written: 233
+
+Dans write
+  adresse: 761
+  valeur: 234
+  Byte written: 234
+
+Dans write
+  adresse: 762
+  valeur: 235
+  Byte written: 235
+
+Dans write
+  adresse: 763
+  valeur: 236
+  Byte written: 236
+
+Dans write
+  adresse: 764
+  valeur: 237
+  Byte written: 237
+
+Dans write
+  adresse: 765
+  valeur: 238
+  Byte written: 238
+
+Dans write
+  adresse: 766
+  valeur: 239
+  Byte written: 239
+
+Dans write
+  adresse: 767
+  valeur: 240
+  Byte written: 240
+
+Dans write
+  adresse: 768
+  valeur: 241
+  Byte written: 241
+
+Dans write
+  adresse: 769
+  valeur: 242
+  Byte written: 242
+
+Dans write
+  adresse: 770
+  valeur: 243
+  Byte written: 243
+
+Dans write
+  adresse: 771
+  valeur: 244
+  Byte written: 244
+
+Dans write
+  adresse: 772
+  valeur: 245
+  Byte written: 245
+
+Dans write
+  adresse: 773
+  valeur: 246
+  Byte written: 246
+
+Dans write
+  adresse: 774
+  valeur: 247
+  Byte written: 247
+
+Dans write
+  adresse: 775
+  valeur: 248
+  Byte written: 248
+
+Dans write
+  adresse: 776
+  valeur: 249
+  Byte written: 249
+
+Dans write
+  adresse: 777
+  valeur: 250
+  Byte written: 250
+
+Dans write
+  adresse: 778
+  valeur: 251
+  Byte written: 251
+
+Dans write
+  adresse: 779
+  valeur: 252
+  Byte written: 252
+
+Dans write
+  adresse: 780
+  valeur: 253
+  Byte written: 253
+
+Dans write
+  adresse: 781
+  valeur: 254
+  Byte written: 254
+
+Dans write
+  adresse: 782
+  valeur: 255
+  Byte written: 255
+
+Dans write
+  adresse: 783
+  valeur: 0
+  Byte written: 0
+
+Dans write
+  adresse: 784
+  valeur: 1
+  Byte written: 1
+
+Dans write
+  adresse: 785
+  valeur: 2
+  Byte written: 2
+
+Dans write
+  adresse: 786
+  valeur: 3
+  Byte written: 3
+
+Dans write
+  adresse: 787
+  valeur: 4
+  Byte written: 4
+
+Dans write
+  adresse: 788
+  valeur: 5
+  Byte written: 5
+
+Dans write
+  adresse: 789
+  valeur: 6
+  Byte written: 6
+
+Dans write
+  adresse: 790
+  valeur: 7
+  Byte written: 7
+
+Dans write
+  adresse: 791
+  valeur: 8
+  Byte written: 8
+
+Dans write
+  adresse: 792
+  valeur: 9
+  Byte written: 9
+
+Dans write
+  adresse: 793
+  valeur: 10
+  Byte written: 10
+
+Dans write
+  adresse: 794
+  valeur: 11
+  Byte written: 11
+
+Dans write
+  adresse: 795
+  valeur: 12
+  Byte written: 12
+
+Dans write
+  adresse: 796
+  valeur: 13
+  Byte written: 13
+
+Dans write
+  adresse: 797
+  valeur: 14
+  Byte written: 14
+
+Dans write
+  adresse: 798
+  valeur: 15
+  Byte written: 15
+
+Dans write
+  adresse: 799
+  valeur: 16
+  Byte written: 16
+
+Dans write
+  adresse: 800
+  valeur: 17
+  Byte written: 17
+
+Dans write
+  adresse: 801
+  valeur: 18
+  Byte written: 18
+
+Dans write
+  adresse: 802
+  valeur: 19
+  Byte written: 19
+
+Dans write
+  adresse: 803
+  valeur: 20
+  Byte written: 20
+
+Dans write
+  adresse: 804
+  valeur: 21
+  Byte written: 21
+
+Dans write
+  adresse: 805
+  valeur: 22
+  Byte written: 22
+
+Dans write
+  adresse: 806
+  valeur: 23
+  Byte written: 23
+
+Dans read
+  adresse: 4148
+  Byte read: 0
+
+Dans read
+  adresse: 4149
+  Byte read: 0
+
+Dans read
+  adresse: 4150
+  Byte read: 0
+
+Dans read
+  adresse: 4151
+  Byte read: 0
+
+Dans read
+  adresse: 4152
+  Byte read: 0
+
+Dans read
+  adresse: 4153
+  Byte read: 0
+
+Dans read
+  adresse: 4154
+  Byte read: 0
+
+Dans read
+  adresse: 4155
+  Byte read: 0
+
+Dans read
+  adresse: 4156
+  Byte read: 0
+
+Dans read
+  adresse: 4157
+  Byte read: 0
+
+Dans read
+  adresse: 4158
+  Byte read: 0
+
+Dans read
+  adresse: 4159
+  Byte read: 0
+
+Dans read
+  adresse: 4160
+  Byte read: 0
+
+Dans read
+  adresse: 4161
+  Byte read: 0
+
+Dans read
+  adresse: 4162
+  Byte read: 0
+
+Dans read
+  adresse: 4163
+  Byte read: 0
+
+Dans read
+  adresse: 4164
+  Byte read: 0
+
+Dans read
+  adresse: 4165
+  Byte read: 0
+
+Dans read
+  adresse: 4166
+  Byte read: 0
+
+Dans read
+  adresse: 4167
+  Byte read: 0
+
+Dans read
+  adresse: 4168
+  Byte read: 0
+
+Dans read
+  adresse: 4169
+  Byte read: 0
+
+Dans read
+  adresse: 4170
+  Byte read: 0
+
+Dans read
+  adresse: 4171
+  Byte read: 0
+
+Dans read
+  adresse: 4172
+  Byte read: 0
+
+Dans read
+  adresse: 4173
+  Byte read: 0
+
+Dans read
+  adresse: 4174
+  Byte read: 0
+
+Dans read
+  adresse: 4175
+  Byte read: 0
+
+Dans read
+  adresse: 4176
+  Byte read: 0
+
+Dans read
+  adresse: 4177
+  Byte read: 0
+
+Dans read
+  adresse: 4178
+  Byte read: 0
+
+Dans read
+  adresse: 4179
+  Byte read: 0
+
+Dans read
+  adresse: 4180
+  Byte read: 0
+
+Dans read
+  adresse: 4181
+  Byte read: 0
+
+Dans read
+  adresse: 4182
+  Byte read: 0
+
+Dans read
+  adresse: 4183
+  Byte read: 0
+
+Dans read
+  adresse: 4184
+  Byte read: 0
+
+Dans read
+  adresse: 4185
+  Byte read: 0
+
+Dans read
+  adresse: 4186
+  Byte read: 0
+
+Dans read
+  adresse: 4187
+  Byte read: 0
+
+Dans read
+  adresse: 4188
+  Byte read: 0
+
+Dans read
+  adresse: 4189
+  Byte read: 0
+
+Dans read
+  adresse: 4190
+  Byte read: 0
+
+Dans read
+  adresse: 4191
+  Byte read: 98
+
+Dans read
+  adresse: 4192
+  Byte read: 99
+
+Dans read
+  adresse: 4193
+  Byte read: 100
+
+Dans read
+  adresse: 4194
+  Byte read: 101
+
+Dans read
+  adresse: 4195
+  Byte read: 102
+
+Dans read
+  adresse: 4196
+  Byte read: 103
+
+Dans read
+  adresse: 4197
+  Byte read: 104
+
+Dans read
+  adresse: 4198
+  Byte read: 105
+
+Dans read
+  adresse: 4199
+  Byte read: 106
+
+Dans read
+  adresse: 4200
+  Byte read: 107
+
+Dans read
+  adresse: 4201
+  Byte read: 108
+
+Dans read
+  adresse: 4202
+  Byte read: 109
+
+Dans read
+  adresse: 4203
+  Byte read: 110
+
+Dans read
+  adresse: 4204
+  Byte read: 111
+
+Dans read
+  adresse: 4205
+  Byte read: 112
+
+Dans read
+  adresse: 4206
+  Byte read: 113
+
+Dans read
+  adresse: 4207
+  Byte read: 114
+
+Dans read
+  adresse: 4208
+  Byte read: 115
+
+Dans read
+  adresse: 4209
+  Byte read: 116
+
+Dans read
+  adresse: 4210
+  Byte read: 117
+
+Dans read
+  adresse: 4211
+  Byte read: 118
+
+Dans read
+  adresse: 4212
+  Byte read: 119
+
+Dans read
+  adresse: 4213
+  Byte read: 120
+
+Dans read
+  adresse: 4214
+  Byte read: 121
+
+Dans read
+  adresse: 4215
+  Byte read: 122
+
+Dans read
+  adresse: 4216
+  Byte read: 123
+
+Dans read
+  adresse: 4217
+  Byte read: 124
+
+Dans read
+  adresse: 4218
+  Byte read: 125
+
+Dans read
+  adresse: 4219
+  Byte read: 126
+
+Dans read
+  adresse: 4220
+  Byte read: 127
+
+Dans read
+  adresse: 4221
+  Byte read: 128
+
+Dans read
+  adresse: 4222
+  Byte read: 129
+
+Dans read
+  adresse: 4223
+  Byte read: 130
+
+Dans read
+  adresse: 4224
+  Byte read: 131
+
+Dans read
+  adresse: 4225
+  Byte read: 132
+
+Dans read
+  adresse: 4226
+  Byte read: 133
+
+Dans read
+  adresse: 4227
+  Byte read: 134
+
+Dans read
+  adresse: 4228
+  Byte read: 135
+
+Dans read
+  adresse: 4229
+  Byte read: 136
+
+Dans write
+  adresse: 1039
+  valeur: 21
+  Byte written: 21
+
+Dans write
+  adresse: 1040
+  valeur: 22
+  Byte written: 22
+
+Dans write
+  adresse: 1041
+  valeur: 23
+  Byte written: 23
+
+Dans write
+  adresse: 1042
+  valeur: 24
+  Byte written: 24
+
+Dans write
+  adresse: 1043
+  valeur: 25
+  Byte written: 25
+
+Dans write
+  adresse: 1044
+  valeur: 26
+  Byte written: 26
+
+Dans write
+  adresse: 1045
+  valeur: 27
+  Byte written: 27
+
+Dans write
+  adresse: 1046
+  valeur: 28
+  Byte written: 28
+
+Dans write
+  adresse: 1047
+  valeur: 29
+  Byte written: 29
+
+Dans write
+  adresse: 1048
+  valeur: 30
+  Byte written: 30
+
+Dans write
+  adresse: 1049
+  valeur: 31
+  Byte written: 31
+
+Dans write
+  adresse: 1050
+  valeur: 32
+  Byte written: 32
+
+Dans write
+  adresse: 1051
+  valeur: 33
+  Byte written: 33
+
+Dans write
+  adresse: 1052
+  valeur: 34
+  Byte written: 34
+
+Dans write
+  adresse: 1053
+  valeur: 35
+  Byte written: 35
+
+Dans write
+  adresse: 1054
+  valeur: 36
+  Byte written: 36
+
+Dans write
+  adresse: 1055
+  valeur: 37
+  Byte written: 37
+
+Dans write
+  adresse: 1056
+  valeur: 38
+  Byte written: 38
+
+Dans write
+  adresse: 1057
+  valeur: 39
+  Byte written: 39
+
+Dans write
+  adresse: 1058
+  valeur: 40
+  Byte written: 40
+
+Dans write
+  adresse: 1059
+  valeur: 41
+  Byte written: 41
+
+Dans write
+  adresse: 1060
+  valeur: 42
+  Byte written: 42
+
+Dans write
+  adresse: 1061
+  valeur: 43
+  Byte written: 43
+
+Dans write
+  adresse: 1062
+  valeur: 44
+  Byte written: 44
+
+Dans write
+  adresse: 1063
+  valeur: 45
+  Byte written: 45
+
+Dans write
+  adresse: 1064
+  valeur: 46
+  Byte written: 46
+
+Dans write
+  adresse: 1065
+  valeur: 47
+  Byte written: 47
+
+Dans write
+  adresse: 1066
+  valeur: 48
+  Byte written: 48
+
+Dans write
+  adresse: 1067
+  valeur: 49
+  Byte written: 49
+
+Dans write
+  adresse: 1068
+  valeur: 50
+  Byte written: 50
+
+Dans write
+  adresse: 1069
+  valeur: 51
+  Byte written: 51
+
+Dans write
+  adresse: 1070
+  valeur: 52
+  Byte written: 52
+
+Dans write
+  adresse: 1071
+  valeur: 53
+  Byte written: 53
+
+Dans write
+  adresse: 1072
+  valeur: 54
+  Byte written: 54
+
+Dans write
+  adresse: 1073
+  valeur: 55
+  Byte written: 55
+
+Dans write
+  adresse: 1074
+  valeur: 56
+  Byte written: 56
+
+Dans write
+  adresse: 1075
+  valeur: 57
+  Byte written: 57
+
+Dans write
+  adresse: 1076
+  valeur: 58
+  Byte written: 58
+
+Dans write
+  adresse: 1077
+  valeur: 59
+  Byte written: 59
+
+Dans write
+  adresse: 1078
+  valeur: 60
+  Byte written: 60
+
+Dans write
+  adresse: 1079
+  valeur: 61
+  Byte written: 61
+
+Dans write
+  adresse: 1080
+  valeur: 62
+  Byte written: 62
+
+Dans write
+  adresse: 1081
+  valeur: 63
+  Byte written: 63
+
+Dans write
+  adresse: 1082
+  valeur: 64
+  Byte written: 64
+
+Dans write
+  adresse: 1083
+  valeur: 65
+  Byte written: 65
+
+Dans write
+  adresse: 1084
+  valeur: 66
+  Byte written: 66
+
+Dans write
+  adresse: 1085
+  valeur: 67
+  Byte written: 67
+
+Dans write
+  adresse: 1086
+  valeur: 68
+  Byte written: 68
+
+Dans write
+  adresse: 1087
+  valeur: 69
+  Byte written: 69
+
+Dans write
+  adresse: 1088
+  valeur: 70
+  Byte written: 70
+
+Dans write
+  adresse: 1089
+  valeur: 71
+  Byte written: 71
+
+Dans write
+  adresse: 1090
+  valeur: 72
+  Byte written: 72
+
+Dans write
+  adresse: 1091
+  valeur: 73
+  Byte written: 73
+
+Dans write
+  adresse: 1092
+  valeur: 74
+  Byte written: 74
+
+Dans write
+  adresse: 1093
+  valeur: 75
+  Byte written: 75
+
+Dans write
+  adresse: 1094
+  valeur: 76
+  Byte written: 76
+
+Dans write
+  adresse: 1095
+  valeur: 77
+  Byte written: 77
+
+Dans write
+  adresse: 1096
+  valeur: 78
+  Byte written: 78
+
+Dans write
+  adresse: 1097
+  valeur: 79
+  Byte written: 79
+
+Dans write
+  adresse: 1098
+  valeur: 80
+  Byte written: 80
+
+Dans write
+  adresse: 1099
+  valeur: 81
+  Byte written: 81
+
+Dans write
+  adresse: 1100
+  valeur: 82
+  Byte written: 82
+
+Dans write
+  adresse: 1101
+  valeur: 83
+  Byte written: 83
+
+Dans write
+  adresse: 1102
+  valeur: 84
+  Byte written: 84
+
+Dans write
+  adresse: 1103
+  valeur: 85
+  Byte written: 85
+
+Dans write
+  adresse: 1104
+  valeur: 86
+  Byte written: 86
+
+Dans write
+  adresse: 1105
+  valeur: 87
+  Byte written: 87
+
+Dans write
+  adresse: 1106
+  valeur: 88
+  Byte written: 88
+
+Dans write
+  adresse: 1107
+  valeur: 89
+  Byte written: 89
+
+Dans write
+  adresse: 1108
+  valeur: 90
+  Byte written: 90
+
+Dans write
+  adresse: 1109
+  valeur: 91
+  Byte written: 91
+
+Dans write
+  adresse: 1110
+  valeur: 92
+  Byte written: 92
+
+Dans write
+  adresse: 1111
+  valeur: 93
+  Byte written: 93
+
+Dans write
+  adresse: 1112
+  valeur: 94
+  Byte written: 94
+
+Dans write
+  adresse: 1113
+  valeur: 95
+  Byte written: 95
+
+Dans write
+  adresse: 1114
+  valeur: 96
+  Byte written: 96
+
+Dans write
+  adresse: 1115
+  valeur: 97
+  Byte written: 97
+
+Dans write
+  adresse: 1116
+  valeur: 98
+  Byte written: 98
+
+Dans write
+  adresse: 1117
+  valeur: 99
+  Byte written: 99
+
+Dans write
+  adresse: 1118
+  valeur: 100
+  Byte written: 100
+
+Dans write
+  adresse: 1119
+  valeur: 101
+  Byte written: 101
+
+Dans write
+  adresse: 1120
+  valeur: 102
+  Byte written: 102
+
+Dans write
+  adresse: 1121
+  valeur: 103
+  Byte written: 103
+
+Dans write
+  adresse: 1122
+  valeur: 104
+  Byte written: 104
+
+Dans write
+  adresse: 1123
+  valeur: 105
+  Byte written: 105
+
+Dans write
+  adresse: 1124
+  valeur: 106
+  Byte written: 106
+
+Dans write
+  adresse: 1125
+  valeur: 107
+  Byte written: 107
+
+Dans write
+  adresse: 1126
+  valeur: 108
+  Byte written: 108
+
+Dans write
+  adresse: 1127
+  valeur: 109
+  Byte written: 109
+
+Dans write
+  adresse: 1128
+  valeur: 110
+  Byte written: 110
+
+Dans write
+  adresse: 1129
+  valeur: 111
+  Byte written: 111
+
+Dans write
+  adresse: 1130
+  valeur: 112
+  Byte written: 112
+
+Dans read
+  adresse: 475
+  Byte read: 0
+
+Dans read
+  adresse: 476
+  Byte read: 0
+
+Dans read
+  adresse: 477
+  Byte read: 0
+
+Dans read
+  adresse: 478
+  Byte read: 0
+
+Dans read
+  adresse: 479
+  Byte read: 0
+
+Dans read
+  adresse: 480
+  Byte read: 0
+
+Dans read
+  adresse: 481
+  Byte read: 0
+
+Dans read
+  adresse: 482
+  Byte read: 0
+
+Dans read
+  adresse: 483
+  Byte read: 0
+
+Dans read
+  adresse: 484
+  Byte read: 0
+
+Dans read
+  adresse: 485
+  Byte read: 0
+
+Dans read
+  adresse: 486
+  Byte read: 0
+
+Dans read
+  adresse: 487
+  Byte read: 0
+
+Dans read
+  adresse: 488
+  Byte read: 0
+
+Dans read
+  adresse: 489
+  Byte read: 0
+
+Dans read
+  adresse: 490
+  Byte read: 0
+
+Dans read
+  adresse: 491
+  Byte read: 0
+
+Dans read
+  adresse: 492
+  Byte read: 0
+
+Dans read
+  adresse: 493
+  Byte read: 0
+
+Dans read
+  adresse: 494
+  Byte read: 0
+
+Dans read
+  adresse: 495
+  Byte read: 0
+
+Dans read
+  adresse: 496
+  Byte read: 0
+
+Dans read
+  adresse: 497
+  Byte read: 0
+
+Dans read
+  adresse: 498
+  Byte read: 0
+
+Dans read
+  adresse: 499
+  Byte read: 0
+
+Dans read
+  adresse: 500
+  Byte read: 0
+
+Dans read
+  adresse: 501
+  Byte read: 0
+
+Dans read
+  adresse: 502
+  Byte read: 0
+
+Dans read
+  adresse: 503
+  Byte read: 0
+
+Dans read
+  adresse: 504
+  Byte read: 0
+
+Dans read
+  adresse: 505
+  Byte read: 0
+
+Dans read
+  adresse: 506
+  Byte read: 0
+
+Dans read
+  adresse: 507
+  Byte read: 0
+
+Dans read
+  adresse: 508
+  Byte read: 0
+
+Dans read
+  adresse: 509
+  Byte read: 0
+
+Dans read
+  adresse: 510
+  Byte read: 0
+
+Dans read
+  adresse: 511
+  Byte read: 0
+
+Dans read
+  adresse: 512
+  Byte read: 0
+
+Dans read
+  adresse: 513
+  Byte read: 0
+
+Dans read
+  adresse: 514
+  Byte read: 0
+
+Dans read
+  adresse: 515
+  Byte read: 0
+
+Dans read
+  adresse: 516
+  Byte read: 0
+
+Dans read
+  adresse: 517
+  Byte read: 0
+
+Dans read
+  adresse: 518
+  Byte read: 0
+
+Dans read
+  adresse: 519
+  Byte read: 0
+
+Dans read
+  adresse: 520
+  Byte read: 0
+
+Dans read
+  adresse: 521
+  Byte read: 0
+
+Dans read
+  adresse: 522
+  Byte read: 0
+
+Dans read
+  adresse: 523
+  Byte read: 0
+
+Dans read
+  adresse: 524
+  Byte read: 0
+
+Dans read
+  adresse: 525
+  Byte read: 0
+
+Dans read
+  adresse: 526
+  Byte read: 0
+
+Dans read
+  adresse: 527
+  Byte read: 0
+
+Dans read
+  adresse: 528
+  Byte read: 0
+
+Dans read
+  adresse: 529
+  Byte read: 0
+
+Dans read
+  adresse: 530
+  Byte read: 0
+
+Dans read
+  adresse: 531
+  Byte read: 0
+
+Dans read
+  adresse: 532
+  Byte read: 0
+
+Dans read
+  adresse: 533
+  Byte read: 0
+
+Dans read
+  adresse: 534
+  Byte read: 0
+
+Dans read
+  adresse: 535
+  Byte read: 0
+
+Dans read
+  adresse: 536
+  Byte read: 0
+
+Dans read
+  adresse: 537
+  Byte read: 0
+
+Dans read
+  adresse: 538
+  Byte read: 0
+
+Dans read
+  adresse: 539
+  Byte read: 0
+
+Dans read
+  adresse: 540
+  Byte read: 0
+
+Dans read
+  adresse: 541
+  Byte read: 0
+
+Dans read
+  adresse: 542
+  Byte read: 0
+
+Dans read
+  adresse: 543
+  Byte read: 0
+
+Dans read
+  adresse: 544
+  Byte read: 0
+
+Dans read
+  adresse: 545
+  Byte read: 0
+
+Dans read
+  adresse: 546
+  Byte read: 0
+
+Dans read
+  adresse: 547
+  Byte read: 0
+
+Dans read
+  adresse: 548
+  Byte read: 0
+
+Dans read
+  adresse: 549
+  Byte read: 0
+
+Dans read
+  adresse: 550
+  Byte read: 0
+
+Dans read
+  adresse: 551
+  Byte read: 0
+
+Dans read
+  adresse: 552
+  Byte read: 0
+
+Dans read
+  adresse: 553
+  Byte read: 0
+
+Dans read
+  adresse: 554
+  Byte read: 0
+
+Dans read
+  adresse: 555
+  Byte read: 0
+
+Dans read
+  adresse: 556
+  Byte read: 0
+
+Dans write
+  adresse: 1573
+  valeur: 114
+  Byte written: 114
+
+Dans write
+  adresse: 1574
+  valeur: 115
+  Byte written: 115
+
+Dans write
+  adresse: 1575
+  valeur: 116
+  Byte written: 116
+
+Dans write
+  adresse: 1576
+  valeur: 117
+  Byte written: 117
+
+Dans write
+  adresse: 1577
+  valeur: 118
+  Byte written: 118
+
+Dans write
+  adresse: 1578
+  valeur: 119
+  Byte written: 119
+
+Dans write
+  adresse: 1579
+  valeur: 120
+  Byte written: 120
+
+Dans write
+  adresse: 1580
+  valeur: 121
+  Byte written: 121
+
+Dans write
+  adresse: 1581
+  valeur: 122
+  Byte written: 122
+
+Dans write
+  adresse: 1582
+  valeur: 123
+  Byte written: 123
+
+Dans write
+  adresse: 1583
+  valeur: 124
+  Byte written: 124
+
+Dans write
+  adresse: 1584
+  valeur: 125
+  Byte written: 125
+
+Dans write
+  adresse: 1585
+  valeur: 126
+  Byte written: 126
+
+Dans write
+  adresse: 1586
+  valeur: 127
+  Byte written: 127
+
+Dans write
+  adresse: 1587
+  valeur: 128
+  Byte written: 128
+
+Dans write
+  adresse: 1588
+  valeur: 129
+  Byte written: 129
+
+Dans write
+  adresse: 1589
+  valeur: 130
+  Byte written: 130
+
+Dans write
+  adresse: 1590
+  valeur: 131
+  Byte written: 131
+
+Dans write
+  adresse: 1591
+  valeur: 132
+  Byte written: 132
+
+Dans write
+  adresse: 1592
+  valeur: 133
+  Byte written: 133
+
+Dans write
+  adresse: 1593
+  valeur: 134
+  Byte written: 134
+
+Dans write
+  adresse: 1594
+  valeur: 135
+  Byte written: 135
+
+Dans write
+  adresse: 1595
+  valeur: 136
+  Byte written: 136
+
+Dans write
+  adresse: 1596
+  valeur: 137
+  Byte written: 137
+
+Dans write
+  adresse: 1597
+  valeur: 138
+  Byte written: 138
+
+Dans write
+  adresse: 1598
+  valeur: 139
+  Byte written: 139
+
+Dans write
+  adresse: 1599
+  valeur: 140
+  Byte written: 140
+
+Dans write
+  adresse: 1600
+  valeur: 141
+  Byte written: 141
+
+Dans write
+  adresse: 1601
+  valeur: 142
+  Byte written: 142
+
+Dans write
+  adresse: 1602
+  valeur: 143
+  Byte written: 143
+
+Dans write
+  adresse: 1603
+  valeur: 144
+  Byte written: 144
+
+Dans write
+  adresse: 1604
+  valeur: 145
+  Byte written: 145
+
+Dans write
+  adresse: 1605
+  valeur: 146
+  Byte written: 146
+
+Dans write
+  adresse: 1606
+  valeur: 147
+  Byte written: 147
+
+Dans write
+  adresse: 1607
+  valeur: 148
+  Byte written: 148
+
+Dans write
+  adresse: 1608
+  valeur: 149
+  Byte written: 149
+
+Dans write
+  adresse: 1609
+  valeur: 150
+  Byte written: 150
+
+Dans write
+  adresse: 1610
+  valeur: 151
+  Byte written: 151
+
+Dans write
+  adresse: 1611
+  valeur: 152
+  Byte written: 152
+
+Dans write
+  adresse: 1612
+  valeur: 153
+  Byte written: 153
+
+Dans write
+  adresse: 1613
+  valeur: 154
+  Byte written: 154
+
+Dans write
+  adresse: 1614
+  valeur: 155
+  Byte written: 155
+
+Dans write
+  adresse: 1615
+  valeur: 156
+  Byte written: 156
+
+Dans write
+  adresse: 1616
+  valeur: 157
+  Byte written: 157
+
+Dans write
+  adresse: 1617
+  valeur: 158
+  Byte written: 158
+
+Dans write
+  adresse: 1618
+  valeur: 159
+  Byte written: 159
+
+Dans write
+  adresse: 1619
+  valeur: 160
+  Byte written: 160
+
+Dans write
+  adresse: 1620
+  valeur: 161
+  Byte written: 161
+
+Dans write
+  adresse: 1621
+  valeur: 162
+  Byte written: 162
+
+Dans write
+  adresse: 1622
+  valeur: 163
+  Byte written: 163
+
+Dans write
+  adresse: 1623
+  valeur: 164
+  Byte written: 164
+
+Dans write
+  adresse: 1624
+  valeur: 165
+  Byte written: 165
+
+Dans read
+  adresse: 4632
+  Byte read: 0
+
+Dans read
+  adresse: 4633
+  Byte read: 0
+
+Dans read
+  adresse: 4634
+  Byte read: 0
+
+Dans read
+  adresse: 4635
+  Byte read: 0
+
+Dans read
+  adresse: 4636
+  Byte read: 0
+
+Dans read
+  adresse: 4637
+  Byte read: 0
+
+Dans read
+  adresse: 4638
+  Byte read: 0
+
+Dans read
+  adresse: 4639
+  Byte read: 0
+
+Dans read
+  adresse: 4640
+  Byte read: 0
+
+Dans read
+  adresse: 4641
+  Byte read: 0
+
+Dans read
+  adresse: 4642
+  Byte read: 0
+
+Dans read
+  adresse: 4643
+  Byte read: 0
+
+Dans write
+  adresse: 1616
+  valeur: 240
+  Byte written: 240
+
+Dans write
+  adresse: 1617
+  valeur: 241
+  Byte written: 241
+
+Dans write
+  adresse: 1618
+  valeur: 242
+  Byte written: 242
+
+Dans write
+  adresse: 1619
+  valeur: 243
+  Byte written: 243
+
+Dans write
+  adresse: 1620
+  valeur: 244
+  Byte written: 244
+
+Dans write
+  adresse: 1621
+  valeur: 245
+  Byte written: 245
+
+Dans write
+  adresse: 1622
+  valeur: 246
+  Byte written: 246
+
+Dans write
+  adresse: 1623
+  valeur: 247
+  Byte written: 247
+
+Dans write
+  adresse: 1624
+  valeur: 248
+  Byte written: 248
+
+Dans write
+  adresse: 1625
+  valeur: 249
+  Byte written: 249
+
+Dans write
+  adresse: 1626
+  valeur: 250
+  Byte written: 250
+
+Dans write
+  adresse: 1627
+  valeur: 251
+  Byte written: 251
+
+Dans write
+  adresse: 1628
+  valeur: 252
+  Byte written: 252
+
+Dans write
+  adresse: 1629
+  valeur: 253
+  Byte written: 253
+
+Dans write
+  adresse: 1630
+  valeur: 254
+  Byte written: 254
+
+Dans write
+  adresse: 1631
+  valeur: 255
+  Byte written: 255
+
+Dans write
+  adresse: 1632
+  valeur: 0
+  Byte written: 0
+
+Dans write
+  adresse: 1633
+  valeur: 1
+  Byte written: 1
+
+Dans write
+  adresse: 1634
+  valeur: 2
+  Byte written: 2
+
+Dans write
+  adresse: 1635
+  valeur: 3
+  Byte written: 3
+
+Dans write
+  adresse: 1636
+  valeur: 4
+  Byte written: 4
+
+Dans write
+  adresse: 1637
+  valeur: 5
+  Byte written: 5
+
+Dans write
+  adresse: 1638
+  valeur: 6
+  Byte written: 6
+
+Dans write
+  adresse: 1639
+  valeur: 7
+  Byte written: 7
+
+Dans write
+  adresse: 1640
+  valeur: 8
+  Byte written: 8
+
+Dans write
+  adresse: 1641
+  valeur: 9
+  Byte written: 9
+
+Dans write
+  adresse: 1642
+  valeur: 10
+  Byte written: 10
+
+Dans write
+  adresse: 1643
+  valeur: 11
+  Byte written: 11
+
+Dans write
+  adresse: 1644
+  valeur: 12
+  Byte written: 12
+
+Dans write
+  adresse: 1645
+  valeur: 13
+  Byte written: 13
+
+Dans write
+  adresse: 1646
+  valeur: 14
+  Byte written: 14
+
+Dans write
+  adresse: 1647
+  valeur: 15
+  Byte written: 15
+
+Dans write
+  adresse: 1648
+  valeur: 16
+  Byte written: 16
+
+Dans write
+  adresse: 1649
+  valeur: 17
+  Byte written: 17
+
+Dans write
+  adresse: 1650
+  valeur: 18
+  Byte written: 18
+
+Dans write
+  adresse: 1651
+  valeur: 19
+  Byte written: 19
+
+Dans write
+  adresse: 1652
+  valeur: 20
+  Byte written: 20
+
+Dans write
+  adresse: 1653
+  valeur: 21
+  Byte written: 21
+
+Dans write
+  adresse: 1654
+  valeur: 22
+  Byte written: 22
+
+Dans write
+  adresse: 1655
+  valeur: 23
+  Byte written: 23
+
+Dans write
+  adresse: 1656
+  valeur: 24
+  Byte written: 24
+
+Dans write
+  adresse: 1657
+  valeur: 25
+  Byte written: 25
+
+Dans write
+  adresse: 1658
+  valeur: 26
+  Byte written: 26
+
+Dans write
+  adresse: 1659
+  valeur: 27
+  Byte written: 27
+
+Dans write
+  adresse: 1660
+  valeur: 28
+  Byte written: 28
+
+Dans write
+  adresse: 1661
+  valeur: 29
+  Byte written: 29
+
+Dans write
+  adresse: 1662
+  valeur: 30
+  Byte written: 30
+
+Dans write
+  adresse: 1663
+  valeur: 31
+  Byte written: 31
+
+Dans write
+  adresse: 1664
+  valeur: 32
+  Byte written: 32
+
+Dans write
+  adresse: 1665
+  valeur: 33
+  Byte written: 33
+
+Dans write
+  adresse: 1666
+  valeur: 34
+  Byte written: 34
+
+Dans write
+  adresse: 1667
+  valeur: 35
+  Byte written: 35
+
+Dans write
+  adresse: 1668
+  valeur: 36
+  Byte written: 36
+
+Dans write
+  adresse: 1669
+  valeur: 37
+  Byte written: 37
+
+Dans write
+  adresse: 1670
+  valeur: 38
+  Byte written: 38
+
+Dans write
+  adresse: 1671
+  valeur: 39
+  Byte written: 39
+
+Dans write
+  adresse: 1672
+  valeur: 40
+  Byte written: 40
+
+Dans write
+  adresse: 1673
+  valeur: 41
+  Byte written: 41
+
+Dans write
+  adresse: 1674
+  valeur: 42
+  Byte written: 42
+
+Dans write
+  adresse: 1675
+  valeur: 43
+  Byte written: 43
+
+Dans write
+  adresse: 1676
+  valeur: 44
+  Byte written: 44
+
+Dans write
+  adresse: 1677
+  valeur: 45
+  Byte written: 45
+
+Dans write
+  adresse: 1678
+  valeur: 46
+  Byte written: 46
+
+Dans write
+  adresse: 1679
+  valeur: 47
+  Byte written: 47
+
+Dans write
+  adresse: 1680
+  valeur: 48
+  Byte written: 48
+
+Dans write
+  adresse: 1681
+  valeur: 49
+  Byte written: 49
+
+Dans write
+  adresse: 1682
+  valeur: 50
+  Byte written: 50
+
+Dans write
+  adresse: 1683
+  valeur: 51
+  Byte written: 51
+
+Dans write
+  adresse: 1684
+  valeur: 52
+  Byte written: 52
+
+Dans write
+  adresse: 1685
+  valeur: 53
+  Byte written: 53
+
+Dans write
+  adresse: 1686
+  valeur: 54
+  Byte written: 54
+
+Dans write
+  adresse: 1687
+  valeur: 55
+  Byte written: 55
+
+Dans write
+  adresse: 1688
+  valeur: 56
+  Byte written: 56
+
+Dans write
+  adresse: 1689
+  valeur: 57
+  Byte written: 57
+
+Dans write
+  adresse: 1690
+  valeur: 58
+  Byte written: 58
+
+Dans write
+  adresse: 1691
+  valeur: 59
+  Byte written: 59
+
+Dans write
+  adresse: 1692
+  valeur: 60
+  Byte written: 60
+
+Dans write
+  adresse: 1693
+  valeur: 61
+  Byte written: 61
+
+Dans write
+  adresse: 1694
+  valeur: 62
+  Byte written: 62
+
+Dans write
+  adresse: 1695
+  valeur: 63
+  Byte written: 63
+
+Dans write
+  adresse: 1696
+  valeur: 64
+  Byte written: 64
+
+Dans write
+  adresse: 1697
+  valeur: 65
+  Byte written: 65
+
+Dans write
+  adresse: 1698
+  valeur: 66
+  Byte written: 66
+
+Dans write
+  adresse: 1699
+  valeur: 67
+  Byte written: 67
+
+Dans write
+  adresse: 1700
+  valeur: 68
+  Byte written: 68
+
+Dans write
+  adresse: 1701
+  valeur: 69
+  Byte written: 69
+
+Dans write
+  adresse: 1702
+  valeur: 70
+  Byte written: 70
+
+Dans write
+  adresse: 1703
+  valeur: 71
+  Byte written: 71
+
+Dans write
+  adresse: 1704
+  valeur: 72
+  Byte written: 72
+
+Dans write
+  adresse: 1705
+  valeur: 73
+  Byte written: 73
+
+Dans write
+  adresse: 1706
+  valeur: 74
+  Byte written: 74
+
+Dans write
+  adresse: 1707
+  valeur: 75
+  Byte written: 75
+
+Dans read
+  adresse: 662
+  Byte read: 0
+
+Dans read
+  adresse: 663
+  Byte read: 0
+
+Dans read
+  adresse: 664
+  Byte read: 0
+
+Dans read
+  adresse: 665
+  Byte read: 0
+
+Dans read
+  adresse: 666
+  Byte read: 0
+
+Dans read
+  adresse: 667
+  Byte read: 0
+
+Dans read
+  adresse: 668
+  Byte read: 0
+
+Dans read
+  adresse: 669
+  Byte read: 0
+
+Dans read
+  adresse: 670
+  Byte read: 0
+
+Dans read
+  adresse: 671
+  Byte read: 0
+
+Dans read
+  adresse: 672
+  Byte read: 0
+
+Dans read
+  adresse: 673
+  Byte read: 0
+
+Dans read
+  adresse: 674
+  Byte read: 0
+
+Dans read
+  adresse: 675
+  Byte read: 0
+
+Dans read
+  adresse: 676
+  Byte read: 0
+
+Dans read
+  adresse: 677
+  Byte read: 0
+
+Dans read
+  adresse: 678
+  Byte read: 0
+
+Dans read
+  adresse: 679
+  Byte read: 0
+
+Dans read
+  adresse: 680
+  Byte read: 0
+
+Dans read
+  adresse: 681
+  Byte read: 0
+
+Dans read
+  adresse: 682
+  Byte read: 0
+
+Dans read
+  adresse: 683
+  Byte read: 0
+
+Dans read
+  adresse: 684
+  Byte read: 0
+
+Dans read
+  adresse: 685
+  Byte read: 0
+
+Dans read
+  adresse: 686
+  Byte read: 0
+
+Dans read
+  adresse: 687
+  Byte read: 0
+
+Dans read
+  adresse: 688
+  Byte read: 0
+
+Dans read
+  adresse: 689
+  Byte read: 0
+
+Dans read
+  adresse: 690
+  Byte read: 0
+
+Dans read
+  adresse: 691
+  Byte read: 0
+
+Dans read
+  adresse: 692
+  Byte read: 0
+
+Dans read
+  adresse: 693
+  Byte read: 0
+
+Dans read
+  adresse: 694
+  Byte read: 0
+
+Dans read
+  adresse: 695
+  Byte read: 0
+
+Dans read
+  adresse: 696
+  Byte read: 0
+
+Dans read
+  adresse: 697
+  Byte read: 0
+
+Dans read
+  adresse: 698
+  Byte read: 0
+
+Dans read
+  adresse: 699
+  Byte read: 0
+
+Dans read
+  adresse: 700
+  Byte read: 0
+
+Dans read
+  adresse: 701
+  Byte read: 0
+
+Dans read
+  adresse: 702
+  Byte read: 0
+
+Dans read
+  adresse: 703
+  Byte read: 0
+
+Dans read
+  adresse: 704
+  Byte read: 0
+
+Dans read
+  adresse: 705
+  Byte read: 0
+
+Dans read
+  adresse: 706
+  Byte read: 0
+
+Dans read
+  adresse: 707
+  Byte read: 0
+
+Dans read
+  adresse: 708
+  Byte read: 0
+
+Dans read
+  adresse: 709
+  Byte read: 0
+
+Dans read
+  adresse: 710
+  Byte read: 0
+
+Dans read
+  adresse: 711
+  Byte read: 0
+
+Dans read
+  adresse: 712
+  Byte read: 0
+
+Dans read
+  adresse: 713
+  Byte read: 0
+
+Dans read
+  adresse: 714
+  Byte read: 0
+
+Dans read
+  adresse: 715
+  Byte read: 0
+
+Dans read
+  adresse: 716
+  Byte read: 0
+
+Dans read
+  adresse: 717
+  Byte read: 0
+
+Dans read
+  adresse: 718
+  Byte read: 0
+
+Dans read
+  adresse: 719
+  Byte read: 0
+
+Dans read
+  adresse: 720
+  Byte read: 0
+
+Dans read
+  adresse: 721
+  Byte read: 0
+
+Dans read
+  adresse: 722
+  Byte read: 0
+
+Dans read
+  adresse: 723
+  Byte read: 0
+

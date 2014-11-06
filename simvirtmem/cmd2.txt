@@ -1,5 +1,200 @@
 write 0 0
-
-
+write 64 1
+write 128 2
+write 192 3
+write 256 4
+write 320 5
+write 384 6
+write 448 7
+write 512 8
+write 576 9
+write 640 10
+write 704 11
+write 768 12
+write 832 13
+write 896 14
+write 960 15
+write 1024 16
+write 1088 17
+write 1152 18
+write 1216 19
+write 1280 20
+write 1344 21
+write 1408 22
+write 1472 23
+write 1536 24
+write 1600 25
+write 1664 26
+write 1728 27
+write 1792 28
+write 1856 29
+write 1920 30
+write 1984 31
+write 2048 32
+write 2112 33
+write 2176 34
+write 2240 35
+write 2304 36
+write 2368 37
+write 2432 38
+write 2496 39
+write 2560 40
+write 2624 41
+write 2688 42
+write 2752 43
+write 2816 44
+write 2880 45
+write 2944 46
+write 3008 47
+write 3072 48
+write 3136 49
+write 3200 50
+write 3264 51
+write 3328 52
+write 3392 53
+write 3456 54
+write 3520 55
+write 3584 56
+write 3648 57
+write 3712 58
+write 3776 59
+write 3840 60
+write 3904 61
+write 3968 62
+write 4032 63
+write 4096 64
+write 4160 65
+write 4224 66
+write 4288 67
+write 4352 68
+write 4416 69
+write 4480 70
+write 4544 71
+write 4608 72
+write 4672 73
+write 4736 74
+write 4800 75
+write 4864 76
+write 4928 77
+write 4992 78
+write 5056 79
+write 5120 80
+write 5184 81
+write 5248 82
+write 5312 83
+write 5376 84
+write 5440 85
+write 5504 86
+write 5568 87
+write 5632 88
+write 5696 89
+write 5760 90
+write 5824 91
+write 5888 92
+write 5952 93
+write 6016 94
+write 6080 95
+write 6144 96
+write 6208 97
+write 6272 98
+write 6336 99
 read 0
-
+read 64
+read 128
+read 192
+read 256
+read 320
+read 384
+read 448
+read 512
+read 576
+read 640
+read 704
+read 768
+read 832
+read 896
+read 960
+read 1024
+read 1088
+read 1152
+read 1216
+read 1280
+read 1344
+read 1408
+read 1472
+read 1536
+read 1600
+read 1664
+read 1728
+read 1792
+read 1856
+read 1920
+read 1984
+read 2048
+read 2112
+read 2176
+read 2240
+read 2304
+read 2368
+read 2432
+read 2496
+read 2560
+read 2624
+read 2688
+read 2752
+read 2816
+read 2880
+read 2944
+read 3008
+read 3072
+read 3136
+read 3200
+read 3264
+read 3328
+read 3392
+read 3456
+read 3520
+read 3584
+read 3648
+read 3712
+read 3776
+read 3840
+read 3904
+read 3968
+read 4032
+read 4096
+read 4160
+read 4224
+read 4288
+read 4352
+read 4416
+read 4480
+read 4544
+read 4608
+read 4672
+read 4736
+read 4800
+read 4864
+read 4928
+read 4992
+read 5056
+read 5120
+read 5184
+read 5248
+read 5312
+read 5376
+read 5440
+read 5504
+read 5568
+read 5632
+read 5696
+read 5760
+read 5824
+read 5888
+read 5952
+read 6016
+read 6080
+read 6144
+read 6208
+read 6272
+read 6336

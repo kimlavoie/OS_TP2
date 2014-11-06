@@ -36,3 +36,4 @@ NB: les algorithmes de la spécification n'étaient pas clairs, alors j'ai pris 
 * Le projet Code::Block fait un define DEBUG quand il compile en mode Debug. Si vous compilez en Release, ce define n'existe pas, et rien ne s'affiche (et c'est volontaire).
 * Pour utiliser l'algorithme de l'horloge, il faut faire un define RP_CLOCK_ALGORITHM, sinon FIFO est utilisé par défaut. Dans le projet, le mode Debug est avec FIFO et Release est avec Horloge.
 * Pour exécuter en ligne de commandes: `simvirtmem quantite-memoire fichier-commande`
+* cmd.txt démontre qu'une erreur est détectée quand on tente d'aller au delà de la mémoire accordée. Cette réaction est voulue.

@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1415234372 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/MAIN.CPP
+	"stdafx.h"
+	"simulateur.h"
+	<cmath>
+
+974046598 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/stdafx.h
+	"memvirt.h"
+
+975445518 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/memvirt.h
+	<iostream>
+	<fstream>
+	<list>
+	<cstdio>
+	<string>
+
+974047870 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/simulateur.h
+
+1415237582 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/MMU.cpp
+	"stdafx.h"
+	"MMU.h"
+
+1415235324 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/MMU.h
+	<list>
+	<sstream>
+	"memoire.h"
+	"Logger.h"
+	"remplacement.h"
+	"exceptions.h"
+
+1414857059 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/memoire.h
+
+974045730 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/StdAfx.cpp
+	"stdafx.h"
+
+1415235284 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/interpreter.cpp
+	"stdafx.h"
+	"interpreter.h"
+	"MMU.h"
+
+974047560 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/interpreter.h
+	"memoire.h"
+
+975499192 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/memoire.cpp
+	"stdafx.h"
+	"memoire.h"
+	<cmath>
+	"exceptions.h"
+
+1415235474 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/exceptions.h
+	<sstream>
+	"Logger.h"
+
+975499244 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/simulateur.cpp
+	"stdafx.h"
+	"simulateur.h"
+	"MMU.h"
+	"memoire.h"
+	"interpreter.h"
+
+1413213140 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/Logger.h
+	<string>
+	<fstream>
+
+1413213397 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/Logger.cpp
+	"Logger.h"
+
+1415235569 /home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/remplacement.h
+	<queue>
+	"memoire.h"
+	"MMU.h"
+	<iostream>
+
+1415233898 source:/home/kim/Documents/systèmes exploitation/TP2/simvirtmem/src/remplacement.cpp
+	"remplacement.h"
+	<iostream>
+

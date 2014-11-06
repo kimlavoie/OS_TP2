@@ -1,0 +1,32 @@
+Dans write
+  adresse: 100
+  valeur: 1
+  Byte written: 1
+
+Dans read
+  adresse: 100
+  Byte read: 1
+
+Dans write
+  adresse: 55
+  valeur: 2
+  Byte written: 2
+
+Dans write
+  adresse: 55
+  valeur: 3
+  Byte written: 3
+
+Dans read
+  adresse: 55
+  Byte read: 3
+
+Dans write
+  adresse: 200
+  valeur: 4
+  Byte written: 4
+
+Dans read
+  adresse: 200
+  Byte read: 4
+

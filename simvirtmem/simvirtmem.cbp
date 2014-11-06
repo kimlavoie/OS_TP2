@@ -11,7 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="40 cmd.txt" />
+				<Option parameters="100 cmd4.txt" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -44,6 +44,7 @@
 		<Unit filename="src/memoire.cpp" />
 		<Unit filename="src/memoire.h" />
 		<Unit filename="src/memvirt.h" />
+		<Unit filename="src/remplacement.cpp" />
 		<Unit filename="src/remplacement.h" />
 		<Unit filename="src/simulateur.cpp" />
 		<Unit filename="src/simulateur.h" />

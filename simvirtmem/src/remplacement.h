@@ -19,16 +19,8 @@ class ReplacementPolicy
         std::queue<Frame*> frames;
 
     public:
-        ReplacementPolicy()
-        {
-            for(int i = 0; i < 16; i++)
-            {
-                Frame* frame = new Frame();
-                frame->virt_address = 0xFFFF;
-                frame->ram_address = i * 64;
-                frames.push(frame);
-            }
-        }
+        ReplacementPolicy();
+
         virtual Frame& getReplacementFrame() = 0;
 };
 
